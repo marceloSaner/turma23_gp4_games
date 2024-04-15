@@ -1,0 +1,54 @@
+/* Não mexa nessas linhas abaixo */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body * {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid red;
+}
+
+:root {
+    font-size: 62.5%;
+    --nav-bg-color: #bfbfbf;
+    --nav-text-color: #020873;
+    --button-bg-color: #ffffff;
+    --button-text-color: #020873;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Inicie seu CSS desta linha para baixo */
+
+header section {
+    display: flex;
+    justify-content: space-between;
+}
+#menu_perfil_usuario {
+    display: flex;
+}
+#menu_perfil {
+    flex-direction: column;
+    list-style: none;
+}
+nav ul {
+    list-style: none;
+}
+
+.button {
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+
+    background: var(--button-bg-color);
+    border-radius: .8rem;
+
+    color: var(--button-text-color);
+}
