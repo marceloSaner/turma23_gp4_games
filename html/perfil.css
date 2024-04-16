@@ -1,6 +1,7 @@
-/* Não mexa nessas linhas abaixo */
+/* Importando a fonte Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* Zerando os espaçamentos */
 * {
   margin: 0;
   padding: 0;
@@ -53,8 +54,6 @@ a {
 }
 
 
-
-/* Inicie seu CSS desta linha para baixo */
 
 #cabecalho {
     display: flex;
