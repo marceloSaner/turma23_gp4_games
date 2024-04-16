@@ -10,10 +10,12 @@
 body * {
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
+    color: var(--button-bg-color);
     border: 1px solid red;
 }
 
 :root {
+    background-color: black;
     font-size: 62.5%;
     --nav-bg-color: #bfbfbf;
     --nav-text-color: #020873;
@@ -25,30 +27,144 @@ a {
   text-decoration: none;
 }
 
-/* Inicie seu CSS desta linha para baixo */
-
-header section {
-    display: flex;
-    justify-content: space-between;
-}
-#menu_perfil_usuario {
-    display: flex;
-}
-#menu_perfil {
-    flex-direction: column;
-    list-style: none;
-}
-nav ul {
-    list-style: none;
-}
-
-.button {
+.botao_ex {
     display: inline-flex;
     justify-content:center;
     align-items: center;
+    width: 14rem;
+    height: 2.5rem;
 
     background: var(--button-bg-color);
     border-radius: .8rem;
 
     color: var(--button-text-color);
+}
+
+.botao {
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+    width: 14rem;
+    height: 2.5rem;
+
+    background: var(--button-text-color);
+    color: var(--button-bg-color);
+    border-radius: .8rem;
+}
+
+
+
+/* Inicie seu CSS desta linha para baixo */
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 5rem;
+}
+
+#logo img {
+    width: 100px;
+    height: 74px;
+}
+
+#slogan img {
+    width: 300px;
+    height: 74px;
+}
+
+.menu_superior ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+.menu_superior a {
+    font-size: 2rem;
+}
+
+.menu_superior a {
+    color: var(--button-bg-color);
+}
+
+#home img {
+    width: 74px;
+    height: 74px;
+}
+
+#corpo {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+#menu_lateral {
+    display: flex;
+    gap: 1rem;
+}
+
+#menu_lateral img {
+    width: 10rem;
+}
+
+#lateral {
+    width: 30rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    background-color: #020873;
+    color: var(--button-bg-color);
+}
+
+#conta ul {
+    list-style: none;
+}
+
+#conta {
+    padding-top: 1rem;
+}
+
+#conta nav {
+    margin-top: 1rem;
+}
+
+#conta li {
+    margin-top: 1rem;
+}
+
+#conta form {
+    margin-top: 10rem;
+}
+
+#perfil {
+    width: 90rem;
+}
+#perfil img {
+    width: 10rem;
+}
+
+.perfil {
+    display: flex;
+    justify-content: space-between;
+}
+
+#left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left img {
+    width: 2rem;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav img {
+    width: 4rem;
 }

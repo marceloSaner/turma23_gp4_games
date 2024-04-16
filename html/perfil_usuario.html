@@ -8,88 +8,99 @@
 </head>
 <body>
     <header>
-        <section>
-            <div>
+        <section id="cabecalho">
+            <div id="logo">
                 <img src="/imagens/icones/logoNG.svg" alt="Logotipo da NetGames">
             </div>
-            <div>
+            <div id="slogan">
                 <img src="/imagens/icones/SloganNetGames.svg" alt="Slogan da NetGames">
             </div>
-            <div>
+            <nav class="menu_superior">
+                <ul>
+                    <li class="botao"> <a href="/html/biblioteca.html">Biblioteca</a></li>
+                    <li class="botao"> <a href="/html/jogos.html">Jogos </a></li>
+                    <li class="botao"> <a href="/html/comunidade.html">Comunidade</a> </li>
+                    <li class="botao"> <a href="/html/sobre_nos.html">Sobre Nós</a> </li>
+                </ul>
+            </nav>
+            <div id="home">
                 <a href="/index.html"><img src="/imagens/icones/home.svg" alt="Página Inicial"></a>
             </div>
         </section>
     </header>
     <main>
-        <nav class="menu">
-            <ul>
-                <li> <a href="/html/biblioteca.html">Biblioteca</a></li>
-                <li> <a href="/html/jogos.html">Jogos </a></li>
-                <li> <a href="/html/comunidade.html">Comunidade</a> </li>
-                <li> <a href="/html/sobre_nos.html">Sobre Nós</a> </li>
-            </ul>
-        </nav>
-        <div>
-            <div>
-                <img src="/imagens/foto.jpg" alt="">
-            </div>
-            <div><strong>Nome Completo</strong></div>
-            <div>Nome de Usuário</div>
-            <div>email</div>
-            <div><strong>Conta</strong></div>
-            <nav>
-                <ul>
-                    <li>Suas Informações</li>
-                    <li>Configurações de Privacidade</li>
-                    <li>Jogos Preferidos</li>
-                    <li>Meus Jogos</li>
-                    <li>Excluir Conta</li>
-                </ul>
-            </nav>
-            <form action="">
-                <input type="submit" name="finalizar" id="finalizar" value="Finalizar Sessão">
+        <section id="corpo">
+            <section id="lateral">
+                <section id="menu_lateral">
+                    <section>
+                        <img src="/imagens/foto.jpg" alt="">
+                    </section>
+                <section id="usuario">
+                    <div><strong>Nome Completo</strong></div>
+                    <div>Nome de Usuário</div>
+                    <div>email</div>
+                </section> <!--Fim id=menu_lateral-->
+                </section>
+                <section id="conta">
+                    <div><strong>Conta</strong></div>
+                    <nav>
+                        <ul>
+                            <li>Suas Informações</li>
+                            <li>Configurações de Privacidade</li>
+                            <li>Jogos Preferidos</li>
+                            <li>Meus Jogos</li>
+                            <li>Excluir Conta</li>
+                        </ul>
+                    </nav>
+                <form action="">
+                    <input class="botao_ex" type="submit" name="finalizar" id="finalizar" value="Finalizar Sessão">
+                </form>
+            </section> <!--Fim id=conta-->
+            </section>
+            <section id="perfil">
+                <h1><strong>Perfil</strong></h1>
+                <form action="">
+                    <section class="perfil">
+                        <label for="nomeUsuario">Nome de Usuário:</label>
+                        <label for="nomeDeUsuario">Nome de Usuário</label>
+                        <input class="botao" type="submit" name="editar" id="editarNU" value="Editar">
+                    </section>
+                    <section class="perfil">
+                        <label for="nome">Nome Completo:</label>
+                        <label for="nomeCompleto">Nome Completo</label>
+                        <input class="botao" type="submit" name="editar" id="editarNC" value="Editar">
+                    </section>
+                    <section class="perfil">
+                        <label for="fotoPerfil">Foto de Perfil:</label>
+                        <img src="/imagens/foto.jpg" alt="">
+                        <input class="botao" type="submit" name="foto" id="fotoPerfil" value="Editar">
+                    </section>
+                    <section class="perfil">
+                        <label for="avatar">Avatar:</label>
+                        <img src="/imagens/avatar.jpg" alt="">
+                        <input class="botao" type="submit" name="avatar" id="avatar" value="Editar">
+                    </section>
+                    <section class="perfil">
+                        <label for="sobre">Sobre:</label>
+                        <label for="sobre">Nome de Usuário</label>
+                        <input class="botao" type="submit" name="sobre" id="sobre" value="Editar">
+                    </section>
+                    <section class="perfil">
+                        <label for="idiomas">Idiomas:</label>
+                        <label for="idiomaPrincipa">Idioma Principal</label>
+                        <input class="botao" type="submit" name="idioma" id="idioma" value="Editar">
+                    </section>
+                </section>
             </form>
-        </div>
-        <div>
-            <h1>Perfil</h1>
-            <form action="">
-                <section>
-                    <label for="nomeUsuario">Nome de Usuário:</label>
-                    <label for="nomeDeUsuario">Nome de Usuário</label>
-                    <input type="submit" name="editar" id="editarNU" value="Editar">
-                </section>
-                <section>
-                    <label for="nome">Nome Completo:</label>
-                    <label for="nomeCompleto">Nome Completo</label>
-                    <input type="submit" name="editar" id="editarNC" value="Editar">
-                </section>
-                <section>
-                    <label for="fotoPerfil">Foto de Perfil:</label>
-                    <img src="/imagens/foto.jpg" alt="">
-                    <input type="submit" name="foto" id="fotoPerfil" value="Editar">
-                </section>
-                <section>
-                    <label for="avatar">Avatar:</label>
-                    <img src="/imagens/avatar.jpg" alt="">
-                    <input type="submit" name="avatar" id="avatar" value="Editar">
-                </section>
-                <section>
-                    <label for="sobre">Sobre:</label>
-                    <label for="sobre">Nome de Usuário</label>
-                    <input type="submit" name="sobre" id="sobre" value="Editar">
-                </section>
-                <section>
-                    <label for="idiomas">Idiomas:</label>
-                    <label for="idiomaPrincipa">Idioma Principal</label>
-                    <input type="submit" name="idioma" id="idioma" value="Editar">
-                </section>
-            </form>
-        </div>
+        </section> <!--Fim id=perfil-->
+    </section>
     </main>
     <footer>
-        <p>NetGames 2024</p>
-        <nav>
+        <section id="left">
+            <p><strong>NetGames 2024</strong></p>
             <p><img src="/imagens/icones/copyLeft.png"></p>
+        </section>
+        <nav>
             <p><img src="/imagens/icones/linkedn.svg"></p>
             <p><img src="/imagens/icones/facebook.svg"></p>
             <p><img src="/imagens/icones/instagram.svg"></p>
