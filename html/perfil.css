@@ -34,10 +34,8 @@ a {
     align-items: center;
     width: 14rem;
     height: 2.5rem;
-
     background: var(--button-bg-color);
     border-radius: .8rem;
-
     color: var(--button-text-color);
 }
 
@@ -45,14 +43,12 @@ a {
     display: inline-flex;
     justify-content:center;
     align-items: center;
-    width: 14rem;
+    width: 12rem;
     height: 2.5rem;
-
     background: var(--button-text-color);
     color: var(--button-bg-color);
     border-radius: .8rem;
 }
-
 
 
 #cabecalho {
@@ -116,6 +112,12 @@ a {
     color: var(--button-bg-color);
 }
 
+#finalizar {
+    display: flex;
+    padding-top: 2rem;
+    justify-content: center;
+}
+
 #conta ul {
     list-style: none;
 }
@@ -132,20 +134,31 @@ a {
     margin-top: 1rem;
 }
 
-#conta form {
-    margin-top: 10rem;
+#conta a {
+    color:#020873;
+    font-weight: 800;
 }
 
 #perfil {
     width: 90rem;
 }
+
 #perfil img {
     width: 10rem;
 }
 
 .perfil {
     display: flex;
-    justify-content: space-between;
+}
+
+.perfil h3{
+    width: 20rem;
+}
+
+#editar {
+    display: flex;
+    padding-top: 2rem;
+    justify-content: end;
 }
 
 #left {

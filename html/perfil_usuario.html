@@ -17,8 +17,8 @@
             </div>
             <nav class="menu_superior">
                 <ul>
-                    <li class="botao"> <a href="./biblioteca.html">Biblioteca</a></li>
                     <li class="botao"> <a href="./jogos.html">Jogos </a></li>
+                    <li class="botao"> <a href="./biblioteca.html">Biblioteca</a></li>
                     <li class="botao"> <a href="./comunidade.html">Comunidade</a> </li>
                     <li class="botao"> <a href="./sobre_nos.html">Sobre Nós</a> </li>
                 </ul>
@@ -52,47 +52,41 @@
                             <li>Excluir Conta</li>
                         </ul>
                     </nav>
-                <form action="">
-                    <input class="botao_ex" type="submit" name="finalizar" id="finalizar" value="Finalizar Sessão">
-                </form>
-            </section> <!--Fim id=conta-->
+                    <div id="finalizar">
+                        <li class="botao_ex"><a href="">Finalizar Sessão</a></li>
+                    </div>
+                </section> <!--Fim id=conta-->
             </section>
             <section id="perfil">
                 <h1><strong>Perfil</strong></h1>
-                <form action="">
-                    <section class="perfil">
-                        <label for="nomeUsuario">Nome de Usuário:</label>
-                        <label for="nomeDeUsuario">Nome de Usuário</label>
-                        <input class="botao" type="submit" name="editar" id="editarNU" value="Editar">
-                    </section>
-                    <section class="perfil">
-                        <label for="nome">Nome Completo:</label>
-                        <label for="nomeCompleto">Nome Completo</label>
-                        <input class="botao" type="submit" name="editar" id="editarNC" value="Editar">
-                    </section>
-                    <section class="perfil">
-                        <label for="fotoPerfil">Foto de Perfil:</label>
-                        <img src="/imagens/foto.jpg" alt="">
-                        <input class="botao" type="submit" name="foto" id="fotoPerfil" value="Editar">
-                    </section>
-                    <section class="perfil">
-                        <label for="avatar">Avatar:</label>
-                        <img src="/imagens/avatar.jpg" alt="">
-                        <input class="botao" type="submit" name="avatar" id="avatar" value="Editar">
-                    </section>
-                    <section class="perfil">
-                        <label for="sobre">Sobre:</label>
-                        <label for="sobre">Nome de Usuário</label>
-                        <input class="botao" type="submit" name="sobre" id="sobre" value="Editar">
-                    </section>
-                    <section class="perfil">
-                        <label for="idiomas">Idiomas:</label>
-                        <label for="idiomaPrincipa">Idioma Principal</label>
-                        <input class="botao" type="submit" name="idioma" id="idioma" value="Editar">
-                    </section>
+                <section class="perfil">
+                    <h3>Nome de Usuário:</h3>
+                    <p>Nome do Usuário</p>
                 </section>
-            </form>
-        </section> <!--Fim id=perfil-->
+                <section class="perfil">
+                    <h3>Nome Completo:</h3>
+                    <p>Nome Completo</p>
+                </section>
+                <section class="perfil">
+                    <h3>Foto de Perfil:</h3>
+                    <img src="../imagens/foto.jpg" alt="Foto de Perfil">
+                </section>
+                <section class="perfil">
+                    <h3>Avatar:</h3>
+                    <img src="../imagens/avatar.jpg" alt="">
+                </section>
+                <section class="perfil">
+                    <h3>Sobre:</h3>
+                    <p>Informações adicionais sobre o usuário, que foram preenchidas por ocasião do cadastro.</p>
+                </section>
+                <section class="perfil">
+                    <h3>Idiomas:</h3>
+                    <p>Idioma Principal</p>
+                </section>
+                <div id="editar">
+                    <li class="botao"><a href="">Editar</a></li>
+                </div>
+            </section> <!--Fim id=perfil-->
     </section>
     </main>
     <footer>
