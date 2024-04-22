@@ -45,10 +45,9 @@
                     <div><strong>Conta</strong></div>
                     <nav>
                         <ul>
-                            <!--<li>Suas Informações</li>-->
+                            <li><a href="./perfil_usuario.html">Perfil</a></li>
                             <!--<li>Configurações de Privacidade</li>-->
                             <li><a href="./jogos_preferidos.html">Jogos Preferidos</a></li>
-                            <li><a href="./excluir_conta.html">Excluir Conta</a></li>
                         </ul>
                     </nav>
                     <div id="finalizar">
@@ -56,35 +55,22 @@
                     </div>
                 </section> <!--Fim id=conta-->
             </section>
-            <section id="perfil">
-                <h1><strong>Perfil</strong></h1>
-                <section class="perfil">
-                    <h3>Nome de Usuário:</h3>
-                    <p>Nome do Usuário</p>
-                </section>
-                <section class="perfil">
-                    <h3>Nome Completo:</h3>
-                    <p>Nome Completo</p>
-                </section>
-                <section class="perfil">
-                    <h3>Foto de Perfil:</h3>
-                    <img src="../imagens/foto.jpg" alt="Foto de Perfil">
-                </section>
-                <section class="perfil">
-                    <h3>Avatar:</h3>
-                    <img src="../imagens/avatar.jpg" alt="">
-                </section>
-                <section class="perfil">
-                    <h3>Sobre:</h3>
-                    <p>Informações adicionais sobre o usuário, que foram preenchidas por ocasião do cadastro.</p>
-                </section>
-                <section class="perfil">
-                    <h3>Idiomas:</h3>
-                    <p>Idioma Principal</p>
-                </section>
-                <div id="editar">
-                    <li class="botao"><a href="./editar_perfil.html">Editar</a></li>
-                </div>
+            <section id="excluir_conta">
+                <h1><strong>Exclusão de Conta de Usuário</strong></h1>
+                <form id="frm_excluir_conta">
+                    <section class="excluir_conta">
+                        <label for="email">Digite o email cadastrado:</label>
+                        <input type="email" name="email" id="email" value="email">
+                    </section>
+                    <section class="excluir_conta">
+                        <label for="confirmar">Clique para confirmar:</label>
+                        <input type="checkbox" name="confirmar" id="confirmar" value="excluir">
+                    </section>
+                    <div id="editar">
+                        <li class="botao">Salvar</li>
+                        <li class="botao"><a href="./perfil_usuario.html"> Cancelar</a></li>
+                    </div>
+                </form>
             </section> <!--Fim id=perfil-->
     </section>
     </main>

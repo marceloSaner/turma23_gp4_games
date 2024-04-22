@@ -45,7 +45,7 @@
                     <div><strong>Conta</strong></div>
                     <nav>
                         <ul>
-                            <!--<li>Suas Informações</li>-->
+                            <li><a href="./perfil_usuario.html">Perfil</a></li>
                             <!--<li>Configurações de Privacidade</li>-->
                             <li><a href="./jogos_preferidos.html">Jogos Preferidos</a></li>
                             <li><a href="./excluir_conta.html">Excluir Conta</a></li>
@@ -56,35 +56,38 @@
                     </div>
                 </section> <!--Fim id=conta-->
             </section>
-            <section id="perfil">
-                <h1><strong>Perfil</strong></h1>
-                <section class="perfil">
-                    <h3>Nome de Usuário:</h3>
-                    <p>Nome do Usuário</p>
-                </section>
-                <section class="perfil">
-                    <h3>Nome Completo:</h3>
-                    <p>Nome Completo</p>
-                </section>
-                <section class="perfil">
-                    <h3>Foto de Perfil:</h3>
-                    <img src="../imagens/foto.jpg" alt="Foto de Perfil">
-                </section>
-                <section class="perfil">
-                    <h3>Avatar:</h3>
-                    <img src="../imagens/avatar.jpg" alt="">
-                </section>
-                <section class="perfil">
-                    <h3>Sobre:</h3>
-                    <p>Informações adicionais sobre o usuário, que foram preenchidas por ocasião do cadastro.</p>
-                </section>
-                <section class="perfil">
-                    <h3>Idiomas:</h3>
-                    <p>Idioma Principal</p>
-                </section>
-                <div id="editar">
-                    <li class="botao"><a href="./editar_perfil.html">Editar</a></li>
-                </div>
+            <section id="editar_perfil">
+                <h1><strong>Editar Perfil</strong></h1>
+                <form id="frm_editar_perfil">
+                    <section class="editar_perfil">
+                        <label for="nome_usuario">Nome de Usuário:</label>
+                        <input type="text" name="nome_usuario" id="nome_usuario" value="nome_usuario">
+                    </section>
+                    <section class="editar_perfil">
+                        <label for="nome_completo">Nome Completo:</label>
+                        <input type="text" name="nome_completo" id="nome_completo" value="nome_completo">
+                    </section>
+                    <section class="editar_perfil">
+                        <label for="foto_perfil">Foto de Perfil</label>
+                        <input type="image" src="../imagens/foto.jpg" name="foto_perfil" id="foto_perfil" value="foto_perfil">
+                    </section>
+                    <section class="editar_perfil">
+                        <label for="avatar">Avatar:</label>
+                        <input type="image" src="../imagens/avatar.jpg" name="avatar" id="avatar" value="avatar">
+                    </section>
+                    <section class="editar_perfil">
+                        <label for="sobre">Sobre:</label>
+                        <textarea name="sobre" id="sobre"></textarea>
+                    </section>
+                    <section class="editar_perfil">
+                        <label for="idioma">Idioma:</label>
+                        <input type="text" name="idioma" id="idioma">
+                    </section>
+                    <div id="editar">
+                        <li class="botao">Salvar</li>
+                        <li class="botao"><a href="./perfil_usuario.html"> Cancelar</a></li>
+                    </div>
+                </form>
             </section> <!--Fim id=perfil-->
     </section>
     </main>

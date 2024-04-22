@@ -118,12 +118,18 @@ a {
     justify-content: center;
 }
 
+#conta #finalizar a {
+    color: #020873;
+    font-weight: 800;
+}
+
 #conta ul {
     list-style: none;
 }
 
 #conta {
     padding-top: 1rem;
+    font-weight: 800;
 }
 
 #conta nav {
@@ -134,13 +140,12 @@ a {
     margin-top: 1rem;
 }
 
-#conta a {
-    color:#020873;
-    font-weight: 800;
+#perfil {
+    width: 100rem;
 }
 
-#perfil {
-    width: 90rem;
+#perfil h1 {
+    margin-bottom: 1.5rem;
 }
 
 #perfil img {
@@ -179,4 +184,97 @@ footer nav {
 
 footer nav img {
     width: 5rem;
+}
+
+/* Configirações da Pagina de Jogos Preferidos */
+
+#preferidos {
+    width: 100rem;
+}
+
+.preferidos-c {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+}
+
+.preferidos-c img {
+    width: 18rem;
+    height: 13rem;
+    padding: 1rem;
+}
+
+.preferidos-c p {
+    font-size: 13px;
+    text-align: center;
+}
+
+.preferidos-b {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.preferidos-b img {
+    width: 18rem;
+    height: 13rem;
+    padding: 1rem;
+}
+
+.preferidos-b p {
+    font-size: 13px;
+    text-align: center;
+}
+
+/* Configirações da Pagina de Editar Perfil */
+
+#editar_perfil {
+    width: 100rem;
+}
+
+#foto_perfil {
+    width: 10rem;
+}
+
+#avatar {
+    width: 10rem;
+}
+
+.editar_perfil {
+    display: flex;
+}
+
+.editar_perfil label {
+    width: 20rem;
+    font-weight: 800;
+}
+
+.editar_perfil  {
+    width: 100rem;
+}
+
+.editar_perfil input {
+    width: 50rem;
+}
+
+.editar_perfil textarea {
+    width: 50rem;
+}
+
+/* Configirações da Pagina de Excluir Conta */
+
+#excluir_conta {
+    width: 100rem;
+}
+
+#excluir_conta h1 {
+    margin-bottom: 1.5rem;
+}
+
+.excluir_conta #email {
+    width: 50rem;
 }
