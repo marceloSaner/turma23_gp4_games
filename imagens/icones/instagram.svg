@@ -24,7 +24,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.94615212"
-     inkscape:cx="165.93526"
+     inkscape:cx="165.40681"
      inkscape:cy="170.69137"
      inkscape:window-width="1920"
      inkscape:window-height="986"
@@ -39,12 +39,12 @@
      style="opacity:1"><g
        id="g6"
        transform="translate(-8.2988945,-4.2247376)"><circle
-         style="display:inline;fill:#020873;fill-opacity:1;stroke:#020873;stroke-width:0.172;stroke-linejoin:round;stroke-opacity:1"
+         style="display:inline;fill:#020873;fill-opacity:1;stroke:#ffffff;stroke-width:0.872;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none"
          id="path1"
          cx="51.261692"
          cy="47.630474"
          r="39.151798" /><path
-         style="fill:#f2f2f2;fill-opacity:1;stroke:#f2f2f2;stroke-width:0.172;stroke-linejoin:round;stroke-opacity:1"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.172;stroke-linejoin:round;stroke-opacity:1"
          d="m 40.967469,26.496026 c -3.606853,0.950745 -7.510947,2.377818 -9.69355,8.442918 l -0.229312,21.860823 c 1.116068,5.936299 4.465964,9.854079 11.048519,10.850782 l 19.378162,-0.123585 c 5.471483,-0.517057 8.703121,-4.210621 10.554178,-9.8621 L 72.149051,37.322736 C 71.060488,32.089203 69.031675,27.463509 61.496005,26.397803 Z"
          id="path5"
          sodipodi:nodetypes="ccccccccc"
@@ -54,7 +54,7 @@
          id="path5-0"
          sodipodi:nodetypes="ccccccccc"
          inkscape:label="path3" /><ellipse
-         style="fill:#f2f2f2;fill-opacity:1;stroke:#f2f2f2;stroke-width:0.298718;stroke-linejoin:round;stroke-opacity:1"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.298718;stroke-linejoin:round;stroke-opacity:1"
          id="path6"
          cx="51.861626"
          cy="46.844597"
@@ -68,7 +68,7 @@
          inkscape:label="path5"
          rx="6.2503786"
          ry="6.3258142" /><ellipse
-         style="fill:#f2f2f2;fill-opacity:1;stroke:#f2f2f2;stroke-width:0.0700387;stroke-linejoin:round;stroke-opacity:1"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.0700387;stroke-linejoin:round;stroke-opacity:1"
          id="path6-5-6"
          cx="62.539639"
          cy="35.958878"

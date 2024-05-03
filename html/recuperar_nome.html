@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil do Usuário</title>
+    <title>Recuparação de Nome de Usuário</title>
     <link rel="stylesheet" href="perfil.css">
 </head>
 <body>
@@ -30,39 +30,14 @@
     </header>
     <main>
         <section id="corpo">
-            <section id="lateral">
-                <section id="menu_lateral">
-                    <section>
-                        <img src="../imagens/avatar.jpg" alt="">
-                    </section>
-                <section id="usuario">
-                    <div><strong>Nome Completo</strong></div>
-                    <div>Nome de Usuário</div>
-                    <div>email</div>
-                </section> <!--Fim id=menu_lateral-->
-                </section>
-                <section id="conta">
-                    <div><strong>Conta</strong></div>
-                    <nav>
-                        <ul>
-                            <li><a href="./perfil_usuario.html">Perfil</a></li>
-                            <!--<li>Configurações de Privacidade</li>-->
-                            <li><a href="./jogos_preferidos.html">Jogos Preferidos</a></li>
-                        </ul>
-                    </nav>
-                    <div id="finalizar">
-                        <li class="botao_ex"><a href="">Finalizar Sessão</a></li>
-                    </div>
-                </section> <!--Fim id=conta-->
-            </section>
-            <section id="excluir_conta">
-                <h1><strong>Exclusão de Conta de Usuário</strong></h1>
-                <form id="frm_excluir_conta">
-                    <section class="excluir_conta">
+            <section id="recuperar_nome">
+                <h1><strong>Pedido de Recuperação de Nome de Usuário</strong></h1>
+                <form id="frm_recuperar_nome">
+                    <section class="recuperar_nome">
                         <label for="email">Digite o email cadastrado:</label>
                         <input type="email" name="email" id="email" value="email">
                     </section>
-                    <section class="excluir_conta">
+                    <section class="recuperar_nome">
                         <label for="confirmar">Clique para confirmar:</label>
                         <input type="checkbox" name="confirmar" id="confirmar" value="excluir">
                     </section>
@@ -75,7 +50,7 @@
     </section>
     </main>
     <footer>
-        <section id="copy-left">
+        <section id="left">
             <p><strong>NetGames 2024</strong></p>
             <p><img src="../imagens/icones/copyLeft.svg"></p>
         </section>
@@ -83,7 +58,6 @@
             <p><img src="../imagens/icones/linkedn.svg"></p>
             <p><img src="../imagens/icones/facebook.svg"></p>
             <p><img src="../imagens/icones/instagram.svg"></p>
-            <p><img src="../imagens/icones/whatsapp.svg"></p>
         </nav>
     </footer>
 </body>
