@@ -12,7 +12,7 @@ body * {
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
     color: var(--button-bg-color);
-   /* border: 1px solid red;*/
+    /*border: 1px solid red;*/
 }
 
 :root {
@@ -60,13 +60,13 @@ a {
 }
 
 #logo img {
-    width: 100px;
-    height: 74px;
+    width: 8rem;
+    height: 8rem;
 }
 
 #slogan img {
-    width: 300px;
-    height: 74px;
+    width: 30rem;
+    height: 8rem;
 }
 
 .menu_superior ul {
@@ -84,8 +84,8 @@ a {
 }
 
 #home img {
-    width: 74px;
-    height: 74px;
+    width: 8rem;
+    height: 8rem;
 }
 
 #corpo {
@@ -178,14 +178,14 @@ a {
 }
 
 #copy-left img {
-    width: 2.5rem;
+    width: 2.3rem;
 }
 
 footer {
     background-color: #020873;
     border-radius: 2rem;
-    padding: 1rem;
-    height: 10.5rem;
+    padding: .5rem;
+    height: 8.5rem;
 }
 footer nav {
     display: flex;
@@ -194,10 +194,10 @@ footer nav {
 }
 
 footer nav img {
-    width: 5rem;
+    width: 3.5rem;
 }
 
-/* Configirações da Pagina de Jogos Preferidos */
+/* Configurações da Pagina de Jogos Preferidos */
 
 #preferidos {
     width: 100rem;
@@ -241,7 +241,7 @@ footer nav img {
     text-align: center;
 }
 
-/* Configirações da Pagina de Editar Perfil */
+/* Configurações da Pagina de Editar Perfil */
 
 #editar_perfil {
     width: 100rem;
@@ -280,7 +280,7 @@ footer nav img {
 }
 
 
-/* Configirações da Pagina de Excluir Conta */
+/* Configurações da Pagina de Excluir Conta */
 
 #excluir_conta {
     width: 100rem;
@@ -295,10 +295,10 @@ footer nav img {
     color: #020873;
 }
 
-/* Configirações da Recuperar nome de usuário */
+/* Configurações da Recuperar nome de usuário */
 
 #recuperar_nome {
-    width: 100rem;
+    width: 120rem;
     margin-left: 4rem;
 }
 
@@ -307,6 +307,22 @@ footer nav img {
 }
 
 .recuperar_nome #email {
+    width: 50rem;
+    color: #020873;
+}
+
+/* Configurações da Redefinir Senha */
+
+#redefinir_senha {
+    width: 120rem;
+    margin-left: 4rem;
+}
+
+.redefinir_senha {
+    padding: 1rem;
+}
+
+.redefinir_senha #email {
     width: 50rem;
     color: #020873;
 }
