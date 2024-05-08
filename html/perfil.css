@@ -43,8 +43,8 @@ a {
     display: inline-flex;
     justify-content:center;
     align-items: center;
-    width: 12rem;
-    height: 2.5rem;
+    width: 13rem;
+    height: 3rem;
     background: var(--button-text-color);
     color: var(--button-bg-color);
     border-radius: .8rem;
@@ -62,6 +62,7 @@ a {
 #logo img {
     width: 8rem;
     height: 8rem;
+    margin-left: 1rem;
 }
 
 #slogan img {
@@ -77,15 +78,13 @@ a {
 
 .menu_superior a {
     font-size: 2rem;
-}
-
-.menu_superior a {
     color: var(--button-bg-color);
 }
 
 #home img {
     width: 8rem;
     height: 8rem;
+    margin-right: 1rem;
 }
 
 #corpo {
@@ -101,6 +100,7 @@ a {
 
 #menu_lateral img {
     width: 10rem;
+    border-radius: 1rem;
 }
 
 #lateral {
@@ -151,6 +151,7 @@ a {
 
 #perfil img {
     width: 10rem;
+    border-radius: 1rem;
 }
 
 .perfil {
@@ -184,8 +185,10 @@ a {
 footer {
     background-color: #020873;
     border-radius: 2rem;
-    padding: .5rem;
+    padding: 1rem;
     height: 8.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 footer nav {
     display: flex;
@@ -212,6 +215,7 @@ footer nav img {
 }
 
 .preferidos-c img {
+    border-radius: 2rem;
     width: 18rem;
     height: 13rem;
     padding: 1rem;
@@ -231,6 +235,7 @@ footer nav img {
 }
 
 .preferidos-b img {
+    border-radius: 2rem;
     width: 18rem;
     height: 13rem;
     padding: 1rem;
@@ -248,16 +253,19 @@ footer nav img {
 }
 
 #foto_perfil {
+    border-radius: 1rem;
     width: 10rem;
 }
 
 #avatar {
+    border-radius: 1rem;
     width: 10rem;
 }
 
 .editar_perfil {
     display: flex;
     align-items: center;
+    width: 100rem;
     margin-bottom: 1rem;
 }
 
@@ -266,16 +274,25 @@ footer nav img {
     font-weight: 800;
 }
 
-.editar_perfil  {
-    width: 100rem;
-}
-
 .editar_perfil input {
+    border-radius: .5rem;
     width: 50rem;
     color: #020873;
 }
 
+.editar_perfil #nome_usuario {
+    height: 3rem;
+}
+.editar_perfil #nome_completo {
+    height: 3rem;
+}
+
+.editar_perfil #idioma {
+    height: 3rem;
+}
+
 .editar_perfil textarea {
+    border-radius: 1rem;
     width: 50rem;
 }
 
@@ -291,7 +308,9 @@ footer nav img {
 }
 
 .excluir_conta #email {
+    border-radius: .5rem;
     width: 50rem;
+    height: 3rem;
     color: #020873;
 }
 
@@ -307,7 +326,9 @@ footer nav img {
 }
 
 .recuperar_nome #email {
+    border-radius: .5rem;
     width: 50rem;
+    height: 3rem;
     color: #020873;
 }
 
@@ -318,11 +339,13 @@ footer nav img {
     margin-left: 4rem;
 }
 
-.redefinir_senha {
+.redefinir_senha {s
     padding: 1rem;
 }
 
 .redefinir_senha #email {
+    border-radius: .5rem;
     width: 50rem;
+    height: 3rem;
     color: #020873;
 }
