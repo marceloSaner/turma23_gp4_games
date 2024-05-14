@@ -7,11 +7,13 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
+
 .cabecalho {
     background-color: #020873;
     display: flex;
@@ -19,12 +21,14 @@ body {
     color: #fff;
     padding: 20px;
 }
+
 header nav ul {   
     display: flex;
     list-style: none;
     justify-content: space-between;
     text-decoration: none;
 }
+
 header nav ul li {
     display: flex;
     align-items: center;
@@ -35,9 +39,12 @@ header nav ul li {
     border-radius: 24px;
     transition: all 0.2s;
 }
+
+
 nav ul li:hover {
     background-color: rgba(255, 255, 255, 0.08)
 }
+
 .logo{
     font-size: 24px;
     color: #fff;
@@ -50,7 +57,6 @@ nav ul li:hover {
 .menu ul li {
     display: inline;
     margin-right: 20px;
-    
 }
 .menu ul li a {
     color: #fff;
@@ -69,25 +75,6 @@ nav ul li:hover {
     line-height: 1.6;
 }
 
-footer {
-    background-color: #020873;
-    background-image: url("rodape.png"); /* Substitua por URL da sua imagem */
-    background-size: cover; /* Ou ajuste como desejar */
-    background-position: center center; /* Ou ajuste como desejar */
-    background-repeat: no-repeat; /* Ou ajuste como desejar */
-    padding: 40px 0; /* Espaçamento interno */
-    color: #fff; /* Cor do texto */
-    font-family: "roboto", sans-serif; /* Fonte do texto */
-    text-align: center; /* Alinhamento do texto */
-    list-style: none;
-}
-
-.container {
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .logo {
     width: 150px;
 }
@@ -97,6 +84,24 @@ footer {
     height: auto;
 }
 
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #020873;
+    background-image: url("rodape.png"); /* Substitua por URL da sua imagem */
+    background-size: cover; /* Ou ajuste como desejar */
+    background-position: center center; /* Ou ajuste como desejar */
+    background-repeat: no-repeat; /* Ou ajuste como desejar */
+    color: #fff; /* Cor do texto */
+    font-family: "roboto", sans-serif; /* Fonte do texto */
+    text-align: center; /* Alinhamento do texto */
+    list-style: none;
+}
+
+
 footer nav ul {
     list-style: none;
     align-items: center;
@@ -104,12 +109,17 @@ footer nav ul {
 
 footer nav li {
     display: inline-block;
+    padding: 2rem;
     
 }
 
 footer nav a {
     text-decoration: none;
     color: #fff;
+}
+
+footer .slogam img {
+    width: 20rem;
 }
 
 .informacoes {
