@@ -1,33 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca</title>
-    
+    <link rel="stylesheet" href="../html/reset.css">
+    <link rel="stylesheet" href="../html/biblioteca.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 
 </head>
-<body>
-    <header class="cabecalho">
-        <a href="Home">
-            <h1 class="logo"> <img src="/imagens/icones/logoNG.png" alt=" logo NetGames"></h1>
-            <h2 class="logo2"> <img src="/imagens/icones/SloganNetGames.svg" alt="Slogan Net Games"></h2>
-        </a>
 
-        <nav class="menu">
-            <ul>
-                <li> <a href="../index.html"> Home <i class="fa-solid fa-house"></i> </a> </li>
-                <li> <a href="./jogos.html"> Jogos <i class="fa-solid fa-gamepad"></i> </a> </li>
-                <li> <a href="./comunidade.html"> Comunidade <i class="fa-solid fa-globe"></i> </a> </li>
-                <li> <a href="./sobre_nos.html"> Sobre Nós <i class="fa-solid fa-user-group"></i></a> </li>
-            </ul>
-        </nav>
+<body>
+    <div class="teste1">
         <aside class="sidebar">
             <header class="sidebar-header">
-                <img class="logo-img"  src="/imagens/perfil.jpg" alt="foto perfil">
+                <img class="logo-img" src="../imagens/perfil.jpg" alt="">
             </header>
 
-            <nav>
+            <nav class="teste-nav">
                 <button>
                     <span>
                         <span> Nome do Usuário</span>
@@ -70,7 +65,7 @@
                     </span>
                 </button>
                 <button>
-                        <span>Fila</span>
+                    <span>Fila</span>
                 </button>
                 <button>
                     <span>Atualizações</span>
@@ -80,113 +75,142 @@
                         <span>Todo o Armazanamento</span>
                 </button>
                 <button>
-                        <span>Espaço GB Livre</span>
+                    <span>Espaço GB Livre</span>
                 </button>
                 <button>
-                        <span> % </span>
+                    <span> % </span>
                 </button>
             </nav>
-
         </aside>
-    </header>
-    <section class="home">
-        <div class="destaques">
-            <img src="/imagens/jogos/Elden Ring.png" alt="Capa Elden Ring">
-            <img src="/imagens/jogos/Horizon Forbidden West.png" alt="Capa Horizon Forbidden West">
-            <img src="/imagens/jogos/God of War.png" alt="Capa Gor of War">
-            <img src="/imagens/jogos/Zelda Breath of the Wild .png" alt="Capa Zelda Breath of the Wild">
-            <img src="/imagens/jogos/Sekiro Shadows Die Twice.png" alt="Capa Sekiro Shadows Die Twice">
+        <div class="container-main">
+            <header class="cabecalho">
+                <h1>
+                    <img src="../imagens/icones/LogoNG.svg" alt="Logo" width="120px" height="120px">
+                </h1>
+
+
+                <nav class="menu">
+                    <ul>
+                        <li> <a href="../index.html"> Home <i class="fa-solid fa-house"></i> </a> </li>
+                        <li> <a href="./jogos.html"> Jogos <i class="fa-solid fa-gamepad"></i> </a> </li>
+                        <li> <a href="./comunidade.html"> Comunidade <i class="fa-solid fa-globe"></i> </a> </li>
+                        <li> <a href="./sobre_nos.html"> Sobre Nós <i class="fa-solid fa-user-group"></i></a> </li>
+                        <li> <a href="./perfil_usuario.html">Perfil<i class="fa-solid fa-user"></i></a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section>
+                    <div class="destaques">
+                        <img src="../imagens/jogos/Elden Ring.png" alt="Capa Elden Ring">
+                        <img src="../imagens/jogos/Horizon Forbidden West.png" alt="Capa Horizon Forbidden West">
+                        <img src="../imagens/jogos/God of War.png" alt="Capa Gor of War">
+                        <img src="../imagens/jogos/Zelda Breath of the Wild .png" alt="Capa Zelda Breath of the Wild">
+                        <img src="../imagens/jogos/Sekiro Shadows Die Twice.png" alt="Capa Sekiro Shadows Die Twice">
+                    </div>
+                </section>
+                <section class="home">
+
+
+                    <div class="button-plataformas">
+
+                        <button><i class="fa-solid fa-border-all"></i> All Jogos </button>
+                        <button><i class="fa-brands fa-playstation"></i> PS </button>
+                        <button><i class="fa-brands fa-xbox"></i> Xbox </button>
+                        <button><i class="fa-solid fa-swatchbook"></i> Nintendo </button>
+                        <button><i class="fa-solid fa-mobile"></i> Mobile </button>
+                        <button><i class="fa-solid fa-computer-mouse"></i> PC </button>
+                        <button><i class="fa-solid fa-shapes"></i> Apps </button>
+
+                    </div>
+                    <div class="botaofiltro">
+
+                        <button>Categoria</button>
+                        <button>Filtro</button>
+
+                    </div>
+
+                </section>
+                <section>
+                    <div class="grid">
+                        <img class="imagem" src="../imagens/jogos/Spider Man Miles Morales.png" alt="Capa Spider Man Miles Morales">
+                        <img class="imagem" src="../imagens/jogos/Grand Thef Auto V.png" alt="Capa Grand Thef Auto V">
+                        <img class="imagem" src="../imagens/jogos/Guardians of the Galaxy.png" alt="Capa Guardians of the Galaxy">
+                        <img class="imagem" src="../imagens/jogos/Alan Wake II.png" alt="Capa Alan Wake II">
+                        <img class="imagem" src="../imagens/jogos/Assasins Creed Valhalla.png" alt="Capa Assasins Creed Valhalla">
+                        <img class="imagem" src="../imagens/jogos/Forza Horizon 5.png" alt="Capa Forza Horizon 5">
+                        <img class="imagem" src="../imagens/jogos/Mortal Kombat 1.png" alt="Capa Mortal Kombat 1">
+                        <img class="imagem" src="../imagens/jogos/Call of Dutty Black Ops Cold War.png"
+                            alt="Capa Call of Dutty Black Ops Cold War">
+                        <img class="imagem" src="../imagens/jogos/Borderlands 3.png" alt="Capa Borderlands 3">
+                        <img class="imagem" src="../imagens/jogos/Palword.png" alt="Capa Palword">
+
+                    </div>
+                </section>
+
+            </main>
         </div>
-
-        <div button-plataformas>
-            
-            <button><i class="fa-solid fa-border-all"></i> All Jogos </button>
-            <button><i class="fa-brands fa-playstation"></i> PS </button>
-            <button><i class="fa-brands fa-xbox"></i> Xbox </button>
-            <button><i class="fa-solid fa-swatchbook"></i> Nintendo </button>
-            <button><i class="fa-solid fa-mobile"></i> Mobile </button>
-            <button><i class="fa-solid fa-computer-mouse"></i> PC </button>
-            <button><i class="fa-solid fa-shapes"></i> Apps </button>
-
-            
-        </div>
-        <div class="botaofiltro">
-            
-            <button>Categoria</button>
-            <button>Filtro</button>
-
-        </div>
-        <div alljogos>
-            <img src="/imagens/jogos/Spider Man Miles Morales.png" alt="Capa Spider Man Miles Morales">
-            <img src="/imagens/jogos/Grand Thef Auto V.png" alt="Capa Grand Thef Auto V">
-            <img src="/imagens/jogos/Guardians of the Galaxy.png" alt="Capa Guardians of the Galaxy">
-            <img src="/imagens/jogos/Alan Wake II.png" alt="Capa Alan Wake II">
-            <img src="/imagens/jogos/Assasins Creed Valhalla.png" alt="Capa Assasins Creed Valhalla">
-            <img src="/imagens/jogos/Forza Horizon 5.png" alt="Capa Forza Horizon 5">
-            <img src="/imagens/jogos/Mortal Kombat 1.png" alt="Capa Mortal Kombat 1">
-            <img src="/imagens/jogos/Call of Dutty Black Ops Cold War.png" alt="Capa Call of Dutty Black Ops Cold War">
-            <img src="/imagens/jogos/Borderlands 3.png" alt="Capa Borderlands 3">
-            <img src="/imagens/jogos/Palword.png" alt="Capa Palword">
-        </div>
-    </section>
-    <footer>
-
-        <a href="#">Inicio
-            <ul>
-             <li><a href="../index.html">home</a></li>
-             <li> <a href="./jogos.html">Jogos</a></li>
-             <li> <a href="./comunidade.html">Comunidade</a></li>
-             <li> <a href="./sobre_nos.html">Sobre Nós</a></li>
-             <li> <a href="./perfil_usuario.html">Perfil do Usuário</a></li>
-            </ul>
-            </a>
-        <a href="#">Sobre Nós
-            <ul>
-                <li> informações da empresa</li>
-                <li>Contato</li>
-            </ul>
-        </a>
-
-        <a href="#">Suporte
-            <ul>
-                <li>FAQ</li>
-                <li>telefones</li>
-                <li>chat</li>
-            </ul>
-        </a>
-        c 2024 Copyrigth - NetGames
-       <div class="redes-sociais">
-
-        <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/nomedousuario" title="ir para o linkedin" target="_blank">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-            </li>
-
-            <li>
-                <a href="https://wa.me/5531999999999" title="Enviar Mensagem no WhatsApp" target="_blank">
-                    <i class="fa-brands fa-whatsapp"></i>                
-                </a>
-            </li>
-
-            <li>
-                <a href="https://github.com/nomedousuario" title="ir para o github" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </li>
-
-            <li>
-                <a href="https://instagram.com/nomedousuario" title="ir para o instagram" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </li>
-         
-        </ul>
     </div>
+
+    </div>
+    <footer>
+        <div class="container">
+            <div class="slogam">
+                <img src="../imagens/icones/SloganNetGames.svg" alt="Slogam NetGames">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Suporte</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="informacoes">
+                <p>&copy;2024 Copyrigth - NetGames</p>
+                <ul>
+                    <li><a href="#"> Telefone: (XX) XXXXX-XXXX</a></li>
+                    <li><a href="#"> Email: contato@netgames.com.br</a></li>
+                </ul>
+            </div>
+            <div class="redes-socias">
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/nomedousuario" title="ir para o linkedin" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://wa.me/5531999999999" title="Enviar Mensagem no WhatsApp" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/nomedousuario" title="ir para o github" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://instagram.com/nomedousuario" title="ir para o instagram" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
     </footer>
+
+
+
+
+
 
     <script src="https://kit.fontawesome.com/f1e2c0b6c0.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>

@@ -1,0 +1,140 @@
+
+body {
+    font-family: "roboto", sans-serif;
+    display: flexbox;
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.cabecalho {
+    background-color: #020873;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    padding: 20px;
+}
+header nav ul {   
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-decoration: none;
+}
+header nav ul li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+    height: 33px;
+    padding: 0 16px 0 12px;
+    border-radius: 24px;
+    transition: all 0.2s;
+}
+nav ul li:hover {
+    background-color: rgba(255, 255, 255, 0.08)
+}
+.logo{
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+/* Estilos da seção sobre nós */
+.about-section {
+    margin-bottom: 40px;
+}
+.about-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.about-section p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #020873;
+    background-image: url("rodape.png"); /* Substitua por URL da sua imagem */
+    background-size: cover; /* Ou ajuste como desejar */
+    background-position: center center; /* Ou ajuste como desejar */
+    background-repeat: no-repeat; /* Ou ajuste como desejar */
+    padding: 40px 0; /* Espaçamento interno */
+    color: #fff; /* Cor do texto */
+    font-family: "roboto", sans-serif; /* Fonte do texto */
+    text-align: center; /* Alinhamento do texto */
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+footer nav ul {
+    list-style: none;
+    align-items: center;
+}
+
+footer nav li {
+    display: inline-block;
+    
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.informacoes {
+    text-align: left;
+}
+
+.informacoes p {
+    margin-bottom: 10px;
+}
+
+.informacoes ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.informacoes li {
+    margin-bottom: 5px;
+}
+
+.informacoes a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes-sociais ul li a {
+    list-style: none;
+}
