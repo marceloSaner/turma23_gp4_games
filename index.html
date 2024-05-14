@@ -1,63 +1,88 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore o Mundo dos Jogos">
     <title>NetGames</title>
-    
+    <link rel="stylesheet" href="styles.css">     
 </head>
+
 <body>
     <header>
-        <section>
-            <div>
+        <section id="cabecalho">
+            <div id="logo">
                 <img src="/imagens/icones/logoNG.svg" alt="Logotipo da NetGames">
             </div>
-            <div>
-                <img src="/imagens/icones/SloganNetGames.svg" alt="Slogan da NetGames">
-            </div>
-            <div>
-                <a href="./html/login.html"><img src="/imagens/icones/login.svg" alt="Página de Login"></a>
+            <div id="menu_superior">
+                <nav class="menu_superior">
+                    <ul>
+                        <li class="botao_ex"><a href="./html/jogos.html">Jogos</a></li>
+                        <li class="botao_ex"><a href="./html/comunidade.html">Comunidade</a></li>
+                        <li class="botao_ex"><a href="./html/biblioteca.html">Biblioteca</a></li>
+                        <li class="botao_ex"><a href="./html/sobre_nos.html">Sobre Nós</a></li>
+                        <li class="botao_ex"><a href="./html/perfil_usuario.html">Perfil</a></li>
+                    </ul>
+                </nav>
+                <div class="search-box">
+                    <input type="text" class="search-txt" placeholder="Pesquisar">
+                    <a href="#" class="search-buttom">
+                    <img src="/imagens/icones/lupa.svg" alt="Lupa">
+                    </a>               
+                </div>
             </div>
         </section>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="./jogos.html">Jogos</a></li>
-            <li><a href="./comunidade.html">Comunidade</a></li>
-            <li><a href="./biblioteca.html">Biblioteca</a></li>
-            <li><a href="./sobre_nos.html">Sobre Nós</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <section>
-            <h1>Jogos em Destaque</h1>
-            <h2>Destaque 1</h2>
-            <h2>Destaque 2</h2>
-            <h2>Destaque 3</h2>
-            <h2>Destaque 4</h2>
-            <h2>Destaque 5</h2>
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-destaque">
+                <h1 class="conteudo-principal-destaque-titulo">Jogos em Destaque</h1>
+                <h3 class="conteudo-principal-destaque-subtitulo"><img src="/imagens/jogos/Zelda Breath of the Wild .png" alt="Destaque 1" height="400" width="450"></h3>
+                <h3 class="conteudo-principal-destaque-subtitulo"><img src="/imagens/jogos/Palword.png" alt="Destaque 2" height="400" width="450"></h3>
+                <h3 class="conteudo-principal-destaque-subtitulo"><img src="/imagens/jogos/Sekiro Shadows Die Twice.png" alt="Destaque 3" height="400" width="450"></h3>
+                <h3 class="conteudo-principal-destaque-subtitulo"><img src="/imagens/jogos/Horizon Forbidden West.png" alt="Destaque 4" height="400" width="450"></h3>
+                <h3 class="conteudo-principal-destaque-subtitulo"><img src="/imagens/jogos/God of War.png" alt="Destaque 5" height="400" width="450"></h3>
+            </div>
         </section>
-        <br>
-        <section>
-            <h2>Veja os Jogos de acordo com a plataforma</h2>
-            <h3>PS</h3>
-            <h3>XBOX</h3>
-            <h3>NINTENDO</h3>
-            <h3>PC</h3>
-            <h3>MOBILE</h3>
+        <section class="conteudo-secundario">
+            <h1 class="conteudo-secundario-titulo">Veja os Jogos de acordo com a plataforma</h1>
+            <h3 class="conteudo-secundario-subtitulo"><img src="/imagens/icones/ps5.webp" alt="PS">PS</h3>
+            <h3 class="conteudo-secundario-subtitulo"><img src="/imagens/icones/xbxs.webp" alt="XBOX">XBOX</h3>
+            <h3 class="conteudo-secundario-subtitulo"><img src="/imagens/icones/switch.webp" alt="SWITCH">SWITCH</h3>
+            <h3 class="conteudo-secundario-subtitulo"><img src="/imagens/icones/pc.webp" alt="PC">PC</h3>
+            <h3 class="conteudo-secundario-subtitulo"><img src="/imagens/icones/3ds.webp" alt="3DS">3DS</h3>
         </section>
     </main>
 
     <footer>
-        <p>NetGames 2024<p>
         <nav>
-            <p><img src="/imagens/icones/copyLeft.svg"></p>
-            <p><img src="/imagens/icones/linkedn.svg"></p>
-            <p><img src="/imagens/icones/facebook.svg"></p>
-            <p><img src="/imagens/icones/instagram.svg"></p>
+            <ul>
+                <li id="logo"><img src="../imagens/icones/LogoNG.svg" alt="Logotipo da NetGames"></li>
+            </ul>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+            </ul>
+            <ul>
+                <li><a href="./sobre_nos.html">Sobre Nós</a></li>
+            </ul>
+            <section>
+                <ul>
+                    <li><img src="../imagens/icones/linkedn.svg"></li>
+                    <li><img src="../imagens/icones/facebook.svg"></li>
+                    <li><img src="../imagens/icones/instagram.svg"></li>
+                    <li><img src="../imagens/icones/whatsapp.svg"></li>
+                </ul>
+                <ul>
+                    <li class="botao_ex"><a id="contato" href="#">Contato</a></li>
+                </ul>
+            </section>
         </nav>
+        <section id="copy-left">
+            <p><strong>NetGames 2024</strong></p>
+            <p><img src="../imagens/icones/copyLeft.svg"></p>
+        </section>
     </footer>
 </body>
 </html>

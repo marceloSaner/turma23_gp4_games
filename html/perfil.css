@@ -3,9 +3,9 @@
 
 /* Zerando os espaçamentos */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body * {
@@ -25,7 +25,7 @@ body * {
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .botao_ex {
@@ -98,16 +98,16 @@ a {
 }
 
 .search-box {
-   transform: translate(-50%, -50%);
-   background: white;
-   height: 3rem;
-   padding: 1rem;
-   margin-top: 3rem;
-   border-radius: 2rem;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   align-items: center;   
+    transform: translate(-50%, -50%);
+    background: white;
+    height: 3rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;   
 }
 
 .search-txt {
@@ -122,13 +122,13 @@ a {
     width: 0;
     transition: .5s;
     font-family: 'Roboto', sans-serif;
- }
- 
- ::-webkit-input-placeholder {
+}
+
+::-webkit-input-placeholder {
     color:#020873
- }
- 
- .search-buttom {
+}
+
+.search-buttom {
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
@@ -137,16 +137,16 @@ a {
     justify-content: center;
     align-items: center;
     transition: .5s;
- }
- 
- .search-box:hover > .search-txt {
+}
+
+.search-box:hover > .search-txt {
     width: 25rem;
     padding: 0 0.5rem;
- }
- 
- .search-box:hover > .search-buttom {
+}
+
+.search-box:hover > .search-buttom {
     background: #192850;
- } 
+} 
 
 .search-box img {
     width: 7rem;
@@ -287,6 +287,7 @@ footer #logo img {
     width: 10rem;
     height: 10rem;
 }
+
 h1 {
     font-size: 3rem;
 }
@@ -398,8 +399,6 @@ h1 {
     top: 100px;
     height: 130px;
 }
-
-
 
 
 
