@@ -12,15 +12,23 @@
             <div id="logo">
                 <img src="../imagens/icones/LogoNG.svg" alt="Logotipo da NetGames">
             </div>
-            <nav class="menu_superior">
-                <ul>
-                    <li class="botao_ex"> <a href="../index.html">home</a></li>
-                    <li class="botao_ex"> <a href="./jogos.html">Jogos</a></li>
-                    <li class="botao_ex"> <a href="./comunidade.html">Comunidade</a></li>
-                    <li class="botao_ex"> <a href="./biblioteca.html">Biblioteca</a></li>
-                    <li class="botao_ex"> <a href="./sobre_nos.html">Sobre Nós</a></li>
-                </ul>
-            </nav>
+            <div id="menu_superior">
+                <nav class="menu_superior">
+                    <ul>
+                        <li class="botao_ex"><a href="../index.html">home</a></li>
+                        <li class="botao_ex"><a href="./jogos.html">Jogos</a></li>
+                        <li class="botao_ex"><a href="./comunidade.html">Comunidade</a></li>
+                        <li class="botao_ex"><a href="./biblioteca.html">Biblioteca</a></li>
+                        <li class="botao_ex"><a href="./sobre_nos.html">Sobre Nós</a></li>
+                    </ul>
+                </nav>
+                <div class="search-box">
+                    <input type="text" class="search-txt" placeholder="Pesquisar">
+                    <a href="#" class="search-buttom">
+                    <img src="../imagens/icones/lupa.svg" alt="Lupa">
+                    </a>               
+                </div>
+            </div>
         </section>
     </header>
     <main>
@@ -37,7 +45,7 @@
                 </section> <!--Fim id=menu_lateral-->
                 </section>
                 <section id="conta">
-                    <div><strong>Conta</strong></div>
+                    <div><h1>Conta</h1></div>
                     <nav>
                         <ul>
                             <li><a href="./perfil_usuario.html">Perfil</a></li>
@@ -54,63 +62,129 @@
             <section id="preferidos">
                 <h1>Jogos Preferidos</h1>
                 <section class="preferidos-c">
-                    <div>
-                        <img src="../imagens/jogos/battlefildP.jpeg" alt="Battle Field">
-                        <p>Battle Field</p>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../imagens/jogos/battlefildP.jpeg" alt="Battle Field">
+                        </div>
+                        <div class="conteudo">
+                            <h2>Battle Field 2042</h2>
+                            <p>Em Battlefield 2042, EUA e Rússia estão perto de um dos maiores conflitos já vistos. Em um cenário caótico, milhares de nações estão à beira de um colapso.</p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="../imagens/jogos/Assasins Creed Valhalla.png" alt="Assassins Cred Valhalla">
-                        <p>Assassins Creed Valhalla</p>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../imagens/jogos/Assasins Creed Valhalla.png" alt="Assassins Cred Valhalla">
+                        </div>
+                        <div class="conteudo">
+                            <h2>Assassins Creed Valhalla</h2>
+                            <p>O jogador assume o papel de Eivor, um Viking que juntamente com outros clãs da Escandinávia formam o chamado Grande Exército Pagão.</p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="../imagens/jogos/deadSpace.jpg" alt="Dead Space">
-                        <p>Dead Space</p>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../imagens/jogos/deadSpace.jpg" alt="Dead Space">
+                        </div>
+                        <div class="conteudo">
+                            <h2>Dead Space</h2>
+                            <p>O jogador assume o papel de Isaac Clarke, um engenheiro que deve sobreviver em uma nave de mineração infestada com monstros hostis.</p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="../imagens/jogos/naruto.jpg" alt="Naruto">
-                        <p>Naruto</p>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../imagens/jogos/naruto.jpg" alt="Naruto">
+                        </div>
+                        <div class="conteudo">
+                            <h2>Naruto</h2>
+                            <p>O jogador assume o controle do carismático e irascível ninja em sua jornada através de um castelo que subitamente apareceu na vila da folha.</p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="../imagens/jogos/God of War.png" alt="God Of War">
-                        <p>God Of War</p>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../imagens/jogos/God of War.png" alt="God Of War">
+                        </div>
+                        <div class="conteudo">
+                            <h2>God Of War</h2>
+                            <p>Baseada em várias mitologias, a história de Kratos, um guerreiro espartano que foi levado a matar sua família por seu antigo mestre, o deus Ares.</p>
+                        </div>
                     </div>
                 </section>
                 <section class="preferidos-b">
-                    <div>
-                        <img src="../imagens/jogos/Borderlands 3.png" alt="Borderlands 3">
-                        <p>Borderlands 3</p>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../imagens/jogos/Borderlands 3.png" alt="Borderlands 3">
+                        </div>
+                        <div class="conteudo">
+                            <h2>Borderlands 3</h2>
+                            <p>O modo inédito Corrida Armamentista é uma batalha eternamente rejogável que se passa em uma área escondida de Pandora.</p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="../imagens/jogos/civilizationVI.jpg" alt="Covilizations VI">
-                        <p>Civilizations VI</p>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../imagens/jogos/civilizationVI.jpg" alt="Covilizations VI">
+                        </div>
+                        <div class="conteudo">
+                            <h2>Civilizations VI</h2>
+                            <p>Civilization é um jogo de estratégia baseado em turnos, onde você tenta criar um império capaz de resistir ao tempo.</p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="../imagens/jogos/Elden Ring.png" alt="Elden Ring">
-                        <p>Elden Ring</p>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../imagens/jogos/Elden Ring.png" alt="Elden Ring">
+                        </div>
+                        <div class="conteudo">
+                            <h2>Elden Ring</h2>
+                            <p>É ambientado em um mundo de fantasia de larga escala, conhecido como The Lands Between.</p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="../imagens/jogos/fc24.jpg" alt="FC 24">
-                        <p>FC 24</p>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../imagens/jogos/fc24.jpg" alt="FC 24">
+                        </div>
+                        <div class="conteudo">
+                            <h2>FC 24</h2>
+                            <p>A tecnologia de Estilos de jogo analisa atletas e aumenta a autenticidade, interpretando dados do mundo real da Opta e de outras fontes.</p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="../imagens/jogos/Forza Horizon 5.png" alt="Forza Horizon">
-                        <p>Forza Horizon</p>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="../imagens/jogos/Forza Horizon 5.png" alt="Forza Horizon">
+                        </div>
+                        <div class="conteudo">
+                            <h2>Forza Horizon</h2>
+                            <p>Sua maior aventura te espera! Lidere impressionantes expedições pelo mundo aberto vibrante e em constante evolução nas terras mexicanas.</p>
+                        </div>
                     </div>
                 </section>
             </section> <!--Fim id=preferidos-->
     </section>
     </main>
     <footer>
+        <nav>
+            <ul>
+                <li id="logo"><img src="../imagens/icones/LogoNG.svg" alt="Logotipo da NetGames"></li>
+            </ul>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+            </ul>
+            <ul>
+                <li><a href="./sobre_nos.html">Sobre Nós</a></li>
+            </ul>
+            <section>
+                <ul>
+                    <li><img src="../imagens/icones/linkedn.svg"></li>
+                    <li><img src="../imagens/icones/facebook.svg"></li>
+                    <li><img src="../imagens/icones/instagram.svg"></li>
+                    <li><img src="../imagens/icones/whatsapp.svg"></li>
+                </ul>
+                <ul>
+                    <li class="botao_ex"><a id="contato" href="#">Contato</a></li>
+                </ul>
+            </section>
+        </nav>
         <section id="copy-left">
             <p><strong>NetGames 2024</strong></p>
             <p><img src="../imagens/icones/copyLeft.svg"></p>
         </section>
-        <nav>
-            <p><img src="../imagens/icones/linkedn.svg"></p>
-            <p><img src="../imagens/icones/facebook.svg"></p>
-            <p><img src="../imagens/icones/instagram.svg"></p>
-            <p><img src="../imagens/icones/whatsapp.svg"></p>
-        </nav>
     </footer>
 </body>
 </html>
