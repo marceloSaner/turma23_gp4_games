@@ -96,6 +96,7 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+
 .search-box {
    transform: translate(-50%, -50%);
    background: white;

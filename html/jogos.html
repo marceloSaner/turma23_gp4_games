@@ -3,112 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogos</title>
+    <link rel="stylesheet" href="jogos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Meu Site de Jogos</title>
 </head>
 <body>
     <header>
-        <section>
-            <div>
-                <img src="/imagens/icones/logoNG.svg" alt="Logotipo da NetGames">
+        <section id="cabecalho">
+            <div id="logo">
+                <img src="../imagens/icones/LogoNG.svg" alt="Logotipo da NetGames">
             </div>
-            <section>
-                <ul>
-                    <li> <a href="../index.html">Home</a></li>
-                    <li> <a href="./biblioteca.html">Biblioteca</a></li>
-                    <li> <a href="./comunidade.html">Comunidade</a> </li>
-                    <li> <a href="./sobre_nos.html">Sobre Nós</a> </li>
-                    <li><a ref="#">PS</a></li>
-                    <li><a ref="#">XBOX</a></li>
-                    <li><a ref="#">Nintendo</a></li>
-                    <li><a ref="#">Mobile</a></li>
-                    <li><a ref="#">PC</a></li>
-                </ul>
-            </section>
-            <div>
-                <a href="/html/perfil_usuario.html"><img src="/imagens/icones/login.svg" alt="Perfil do Usuário"></a>
+            <div id="menu_superior">
+                <nav class="menu_superior">
+                    <ul>
+                        <li class="botao_ex"><a href="../index.html">home</a></li>
+                        <li class="botao_ex"><a href="./jogos.html">Jogos</a></li>
+                        <li class="botao_ex"><a href="./comunidade.html">Comunidade</a></li>
+                        <li class="botao_ex"><a href="./biblioteca.html">Biblioteca</a></li>
+                        <li class="botao_ex"><a href="./sobre_nos.html">Sobre Nós</a></li>
+                    </ul>
+                </nav>
+                <div class="search-box">
+                    <input type="text" class="search-txt" placeholder="Pesquisar">
+                    <a href="#" class="search-buttom">
+                    <img src="../imagens/icones/lupa.svg" alt="Lupa">
+                    </a>               
+                </div>
             </div>
         </section>
     </header>
     <main>
-        <p><strong>Vai ter um banner com os destaques</strong></p>
-        <section>
-            <h1>Lançamentos</h1>
-            <div>
-                <h2>Street Figter 6</h2>
-                <img src="/imagens/jogos/streetFigter6.jpg" alt="Street Figter 6">
-                <p> Sinopse: Em Street Fighter 6, os jogadores podem testar suas habilidades em todo o mundo, buscando sua força pessoal. A nova era de Street Fighter começa em 2023, com gráficos de alta qualidade e um novo sistema de combate.</p>
+    <h2>Lançamentos</h2>
+    <div class="game-section">
+        <div class="game-card">
+            <img src="../imagens/jogos/image 1.jpg" alt="Jogo 1, Street Fight">
+            <div class="overlay">
+                <p>No Sudeste Asiático, um general sequestra 63 delegados da ONU e exige um resgate milionário.</p>
             </div>
-            <div>
-                <h2>Mortal Combat 1</h2>
-                <img src="/imagens/jogos/Mortal Kombat 1.png" alt="Mortal Kimbat 1">
-                <p>Sinopse: Mortal Kombat 1 continua os eventos de Aftermath, a expansão de Mortal Kombat 11. Liu Kang se torna um Deus após derrotar Kronika e recria o universo. No entanto, a violência persiste, e os lutadores são forçados a participar novamente do Mortal Kombat.</p>
+        </div>
+        <div class="game-card">
+            <img src="../imagens/jogos/image 2.jpg" alt="Jogo 2, Mortal Kombat">
+            <div class="overlay">
+                <p>Cada participante tem sua própria motivação; agora depende de você ajudar a oficial Sony Blade,o astro de Hollywood Johnny Cage e o ninja do inferno Scorpion.</p>
             </div>
-            <div>
-                <h2>My Hero One's Justice 2</h2>
-                <img src="/imagens/jogos/myHeroOnes.jpg" alt="My Hero One's Justice 2">
-                <p>Sinopse: My Hero One's Justice 2 é um jogo de arena 3D que coloca heróis e vilões em batalhas épicas. Use as habilidades únicas dos personagens e lute por justiça.</p>
+        </div>
+        <div class="game-card">
+            <img src="../imagens/jogos/image 3.jpg" alt="Jogo 3, Dragon Ball">
+            <div class="overlay">
+                <p>Lutas espetaculares e intermináveis entre poderosos lutadores.</p>
             </div>
-            <div>
-                <h2>Rez Infinite</h2>
-                <img src="/imagens/jogos/rezInfinite.jpg" alt="Rez Infinite">
-                <p>Sinopse: Em Rez Infinite, você entra em um espaço cibernético alucinante, disparando contra inimigos e chefes gigantes enquanto sincroniza cores e sons com a trilha sonora techno lendária. A versão remasterizada inclui suporte a 4K no PS4 Pro e texturas em alta resolução.</p>
+        </div>
+        <div class="game-card">
+            <img src="../imagens/jogos/image 4.jpg" alt="Jogo 4, Crash Team Rumble">
+            <div class="overlay">
+                <p>Uma competição 4v4 com base em equipes onde os icônicos heróis e vilões do universo Crash lutam até a vitória.</p>
             </div>
-            <div>
-                <h2>Pistol Whip</h2>
-                <img src="/imagens/jogos/pistolWhip.jpg" alt="Pistol Whip">
-                <p>Sinopse: Mergulhe em tiroteios cinematográficos ao ritmo de uma trilha sonora eletrizante. Percorra cenas surreais, desviando e atirando para conquistar o topo dos placares de líderes. O jogo oferece vibrações sincronizadas com a música e suporte para realidade virtual.</p>
+        </div>
+        <div class="game-card">
+            <img src="../imagens/jogos/image 5.jpg" alt="Jogo 5, Pistol Whip">
+            <div class="overlay">
+                <p>Mergulhe em tiroteios cinematográficos ao ritmo de uma trilha sonora eletrizante. Percorra cenas surreais, desviando e atirando para conquistar o topo dos placares de líderes.</p>
             </div>
-        </section>
-        <section>
-            <h2>Em breve</h2>
-            <div>
-                <h2>EA SPORTS FC™ 24</h2>
-                <img src="/imagens/jogos/fc24.jpg" alt="EA SPORTS FC™ 24">
-                <p>Sinopse: O EA SPORTS FC™ 24 traz uma experiência autêntica de futebol, com tecnologias como HyperMotionV, Estilos de Jogo e detalhes realistas. Você pode jogar com mais de 19.000 atletas licenciados, 700 times, 100 estádios e 30 ligas do mundo do futebol.</p>
+        </div>
+    </div>
+    <h2>Em Breve</h2>
+    <div class="game-section">
+            <div class="game-card">
+                <img src="../imagens/jogos/image 6.jpg" alt="Jogo 6, Rez Infinity">
+                <div class="overlay">
+                    <p>Você entra em um espaço cibernético alucinante, disparando contra inimigos e chefes gigantes enquanto sincroniza cores e sons com a trilha sonora techno lendária.</p>
+                </div>
             </div>
-            <div>
-                <h2>MLB The Show 23</h2>
-                <img src="/imagens/jogos/mlb23.jpg" alt="MLB The Show 23">
-                <p>Sinopse: Reviva seus sonhos de beisebol com o MLB The Show 23, dominando o espetáculo com jogadores, rivalidades e momentos favoritos da MLB. Aproveite a jogabilidade aprimorada e os novos circuitos, como Las Vegas e Catar.</p>
+            <div class="game-card">
+                <img src="../imagens/jogos/image 7.jpg" alt="Jogo 7, AVICII Invector">
+                    <div class="overlay">
+                    <p>Percorra melodias vocais ao ritmo de 25 sucessos de AVICII, incluindo "Wake Me Up" e "Without You". Sinta a batida e veja o ícone do jogador para acertar o ritmo neste jogo pulsante e cheio de música.</p>
+                </div>
             </div>
-            <div>
-                <h2>Sid Meier's Civilization </h2>
-                <img src="/imagens/jogos/civilizationVI.jpg" alt="Sid Meier's Civilization ">
-                <p>Sinopse: Sid Meier's Civilization VI é um jogo de estratégia baseado em turnos que permite aos jogadores construir e expandir civilizações ao longo da história. Desde a antiguidade até a era espacial, você deve tomar decisões políticas, tecnológicas e militares para alcançar a supremacia global.</p>
+            <div class="game-card">
+                <img src="../imagens/jogos/image 8.jpg" alt="Jogo 8, Rock Band Rivals ">
+                    <div class="overlay">
+                        <p>Reviva o clássico jogo de música, toque com instrumentos ou microfones USB e desfrute de uma experiência completa de Rock Band.</p>
+                    </div>
             </div>
-            <div>
-                <h2>Dead Space</h2>
-                <img src="/imagens/jogos/deadSpace.jpg" alt="Dead Space">
-                <p>Dead Space é um jogo de terror de sobrevivência ambientado em uma nave espacial infestada por criaturas alienígenas grotescas. Os jogadores assumem o papel de Isaac Clarke, um engenheiro que deve enfrentar horrores desconhecidos enquanto tenta sobreviver e descobrir a verdade por trás da tragédia.</p>
+            <div class="game-card">
+                <img src="../imagens/jogos/image 9.jpg" alt="Jogo 9, PaRappa The Rapper">
+                    <div class="overlay">
+                        <p>Ajude PaRappa a conquistar o coração de Sunny Funny enquanto aprende com seus mestres do rap favoritos.</p>
+                    </div>
             </div>
-            <div>
-                <h2>Resident Evil</h2>
-                <img src="/imagens/jogos/residentEvil.jpg" alt="Resident Evil">
-                <p>Resident Evil 4 é um clássico do terror de sobrevivência. Leon S. Kennedy, um agente especial, é enviado para resgatar a filha do presidente dos EUA de uma vila rural infestada por zumbis e cultistas. O jogo combina ação intensa, quebra-cabeças e elementos de horror em uma narrativa envolvente.</p>
+        <div class="game-card">
+            <img src="../imagens/jogos/image 10.jpg" alt="Jogo 10, EA SPORTS 24">
+            <div class="overlay">
+                <p>O EA SPORTS FC™ 24 traz uma experiência autêntica de futebol, com tecnologias como HyperMotionV, Estilos de Jogo e detalhes realistas. </p>
             </div>
-        </section>
-        <section>
-            <h2>Jogos Imperdíveis</h2>
-            <div>
-                <h2>Grand Theft Auto: San Andreas</h2>
-                <img src="/imagens/jogos/gtaSanAndreas.jpg" alt="Grand Theft Auto: San Andreas">
-                <p>Sinopse: Grand Theft Auto: San Andreas é um jogo de mundo aberto ambientado na fictícia cidade de Los Santos. Os jogadores assumem o papel de Carl Johnson, um ex-membro de gangue que retorna para casa e se envolve em uma trama de crime, corrupção e vingança.</p>
+        </div>
+    </div>
+    <h2>Jogos Imperdíveis</h2>
+    <div class="game-section">
+            <div class="game-card">
+                <img src="../imagens/jogos/image 11.jpg" alt="Jogo 11, MLB The Show">
+                <div class="overlay">
+                    <p>Reviva seus sonhos de beisebol com o MLB The Show 23, dominando o espetáculo com jogadores, rivalidades e momentos favoritos da MLB. </p>
+                </div>
+        </div>
+        <div class="game-card">
+            <img src="../imagens/jogos/image 12.jpg" alt="Jogo 12, Madden 24">
+            <div class="overlay">
+                <p>Controle sua estratégia de jogo com confiança e domine qualquer adversário no Madden NFL 24.</p>
             </div>
-            <div>
-                <h2>Naruto Shippuden: Ultimate Ninja Storm 2</h2>
-                <img src="/imagens/jogos/naruto.jpg" alt="Naruto Shippuden: Ultimate Ninja Storm 2">
-                <p>Sinopse: Baseado no popular anime e mangá Naruto, o jogo permite que os jogadores controlem diversos personagens ninja em batalhas épicas e revivam momentos icônicos da série.</p>
+        </div>
+        <div class="game-card">
+            <img src="../imagens/jogos/image 13.jpg" alt="Jogo 13, Tony Hawks">
+                <div class="overlay">
+                <p>Ande de skate com lendários skatistas e explore a cultura do skate.</p>
             </div>
-        </section>
+        </div>
+        <div class="game-card">
+            <img src="../imagens/jogos/image 14.jpg" alt="Jogo 14, Top Spin 4">
+                <div class="overlay">
+                    <p>Top Spin 4 é um jogo de tênis que oferece uma experiência mais realista e técnica. Os jogadores podem escolher entre uma variedade de tenistas profissionais e competir em torneios e partidas de exibição.</p>
+                </div>
+        </div>
+        <div class="game-card">
+            <img src="../imagens/jogos/image 15.jpg" alt="Jogo 15, Sid Meier’s Civilization VI">
+                <div class="overlay">
+                    <p>Sid Meier’s Civilization VI é um jogo de estratégia baseado em turnos que permite aos jogadores construir e expandir civilizações ao longo da história.</p>
+                </div>
+        </div>
     </main>
     <footer>
-        <p>NetGames 2024</p>
         <nav>
-            <p><img src="/imagens/icones/copyLeft.png"></p>
-            <p><img src="/imagens/icones/linkedn.svg"></p>
-            <p><img src="/imagens/icones/facebook.svg"></p>
-            <p><img src="/imagens/icones/instagram.svg"></p>
+            <ul>
+                <li id="logo"><img src="../imagens/icones/LogoNG.svg" alt="Logotipo da NetGames"></li>
+            </ul>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+            </ul>
+            <ul>
+                <li><a href="./sobre_nos.html">Sobre Nós</a></li>
+            </ul>
+            <section>
+                <ul>
+                    <li><img src="../imagens/icones/linkedn.svg"></li>
+                    <li><img src="../imagens/icones/facebook.svg"></li>
+                    <li><img src="../imagens/icones/instagram.svg"></li>
+                    <li><img src="../imagens/icones/whatsapp.svg"></li>
+                </ul>
+                <ul>
+                    <li class="botao_ex"><a id="contato" href="#">Contato</a></li>
+                </ul>
+            </section>
         </nav>
+        <section id="copy-left">
+            <p><strong>NetGames 2024</strong></p>
+            <p><img src="../imagens/icones/copyLeft.svg"></p>
+        </section>
     </footer>
 </body>
 </html>
+
+
