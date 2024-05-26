@@ -18,7 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const imgElement = document.createElement("img");
         imgElement.src = image.src;
         imgElement.alt = image.alt;
-        
+        imgElement.width = 320;
+        imgElement.height = 400;
+
         const overlay = document.createElement("div");
         overlay.classList.add("overlay");
         overlay.textContent = image.alt;
@@ -33,5 +35,29 @@ document.addEventListener("DOMContentLoaded", function () {
         carrosselInner.appendChild(itemDiv);
 
     });
+    images.forEach((image) => {
+        const itemDiv = document.createElement("div");
+        itemDiv.classList.add("carrossel-item");
 
+        const imgElement = document.createElement("img");
+        imgElement.src = image.src;
+        imgElement.alt = image.alt;
+        imgElement.width = 320;  
+        imgElement.height = 400;  
+
+        const overlay = document.createElement("div");
+        overlay.classList.add("overlay");
+        overlay.textContent = image.alt;
+
+        const linkElement = document.createElement("a");
+        linkElement.href = image.link;
+        linkElement.target = "_blank";
+
+        linkElement.appendChild(imgElement);
+        linkElement.appendChild(overlay);  
+        itemDiv.appendChild(linkElement);
+        carrosselInner.appendChild(itemDiv);
+    });
+
+    carrossel.appendChild(carrosselInner);
 });
