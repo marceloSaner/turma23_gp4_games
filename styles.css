@@ -4,17 +4,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-
+    
 }
 
 body {
-    font-size: 100%;
+    /*font-size: 100%;
     background: black;  
     margin: 0;
     height: 100vh;
     width: 100vw;
+    font-family: 'Roboto', sans-serif;*/
+    font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
+    color: var(--button-bg-color);
 }
 
 :root {
@@ -156,9 +158,10 @@ a {
 .conteudo-principal {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .conteudo-principal-destaque {
@@ -166,50 +169,44 @@ a {
     flex-direction: row;
     gap: 60px;
     margin-left: 2rem;
+    flex-wrap: wrap;
 }
 
 .conteudo-principal-destaque-titulo {
     font-weight: 800;
     font-size: 4rem;
     color: white;
-    margin-top: 20px;
-    position: absolute;
     text-align: left;
-    align-items: start;
-    margin-left: 2rem;
+    margin: 10px 5rem;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 .conteudo-principal-destaque-subtitulo {
-    width: 310px;
-    height: 300px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    margin-top: 200px;
-    margin-bottom: 90px;
-    gap: 10px;        
+    position: relative;
+    height: 400px;
+    width: 320px;
+    margin-bottom: 20px;
 }
 
 .conteudo-secundario {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;    
+    justify-content: center;    
+    margin-left: 1rem;
 }
 
 .conteudo-secundario-titulo {
-    width: none;
     font-weight: 800;
     font-size: 4rem;
     color: white;
-    margin-left: -780px; 
-    margin-top: -400px;
-    display: flex;
-    flex-direction: column;
     text-align: left;
-    justify-content: flex-start;
-    align-items: start;   
-    position: absolute;
+    margin: 0px 5rem;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .conteudo-secundario-subtitulo {
@@ -221,9 +218,9 @@ a {
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
     margin-bottom: none; 
-    align-items: flex-end;
-    margin-left: 20px;
     text-align: center;
+    align-items: center;
+    margin-right: 20px;    
 }
 
 footer {
@@ -242,6 +239,8 @@ footer nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 footer nav ul {
@@ -254,6 +253,7 @@ footer nav ul {
 
 footer nav ul li a {
     font-size: 2.5rem;
+    color: white;
 }
 
 footer nav img {
