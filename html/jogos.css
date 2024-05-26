@@ -181,7 +181,7 @@ body {
     margin: 5px;
     background-color:black; /* Cor de fundo para as cartas */
     color: #ffffff;
-    overflow; hidden; /* Para esconder a sinopse inicialmente */
+    overflow: hidden; /* Para esconder a sinopse inicialmente */
     font-size: 10px;
 }
 
@@ -214,6 +214,10 @@ footer {
     height: 13rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    padding-top: 10px;  
+    padding-bottom: 130px;
 }
 
 footer nav {
