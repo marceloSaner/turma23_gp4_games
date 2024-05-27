@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const imgElement = document.createElement("img");
         imgElement.src = image.src;
         imgElement.alt = image.alt;
-        imgElement.width = 320;
-        imgElement.height = 400;
+        imgElement.width = 200;
+        imgElement.height = 300;
 
         const overlay = document.createElement("div");
         overlay.classList.add("overlay");
@@ -42,8 +42,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const imgElement = document.createElement("img");
         imgElement.src = image.src;
         imgElement.alt = image.alt;
-        imgElement.width = 320;  
-        imgElement.height = 400;  
+        imgElement.width = 200;  
+        imgElement.height = 300;  
 
         const overlay = document.createElement("div");
         overlay.classList.add("overlay");
