@@ -311,7 +311,7 @@ footer #logo img {
     display: flex;
     overflow: scroll;
     gap: 1rem;
-    padding: 10rem 10;
+    padding: 1rem 1rem;
     overflow: hidden;
     white-space: nowrap;
 
@@ -327,14 +327,14 @@ footer #logo img {
     display: inline-block;
     position: relative;
     text-align: center;
-    width: 330px;
+    width: 319px;
     height: 300px;
     margin-right: 20px;
 }
 
 .carrossel-item img {
-    width: 320px;
-    height: 400px;
+    width: 319px;
+    height: 300px;
     transition: transform 0.3s ease;
     z-index: 1;
 }
@@ -366,7 +366,7 @@ footer #logo img {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-320px * 5 - 150px)); /* Ajustar conforme a quantidade de imagens e a margem */
+        transform: translateX(calc(-320px * 5 - 150px));
     }
 }
 
