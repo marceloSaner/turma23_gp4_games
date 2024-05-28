@@ -1,62 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="login.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/login.css" />
+  </head>
+  <body>
     <main>
-        <header>
-            <section id="cabecalho">
-                <div id="logo">
-                    <img src="../imagens/icones/logoNG.svg" alt="Logotipo da NetGames">
-                </div>
-                <div id="slogan">
-                    <img src="../imagens/icones/SloganNetGames.svg" alt="Slogan da NetGames">
-                </div>
-                <div id="sair">
-                    <a href="../index.html"><img src="../imagens/icones/fechar.svg" alt="Página Inicial"></a>
-                </div>
-            </section>
-        </header>
-        <nav class="login">
-            <ul>
+      <header>
+        <section id="cabecalho">
+          <div id="logo">
+            <img
+              src="../imagens/icones/logoNG.svg"
+              alt="Logotipo da NetGames"
+            />
+          </div>
+          <div id="slogan">
+            <img
+              src="../imagens/icones/SloganNetGames.svg"
+              alt="Slogan da NetGames"
+            />
+          </div>
+          <div id="sair">
+            <a href="../index.html"
+              ><img src="../imagens/icones/fechar.svg" alt="Página Inicial"
+            /></a>
+          </div>
+        </section>
+      </header>
+      <nav class="login">
+        <!----    <ul>
                 <li class="botao"><img src="../imagens/icones/facebook.svg"><a href="#">Login com Facebook</a></li>
             </ul>
             <ul>
                 <li class="botao"><img src="../imagens/icones/google.svg"> <a href="#">Login com Google</a></li>
             </ul>
-            <ul>
-                <form id="nome_usuario">
-                    <input type="text" name="nome_usuario" id="nome_usuario" value="Nome de Usuário">
-                </form>
-            </ul>
-            <ul>
-                <form id="senha">
-                    <input type="password" name="senha" id="senha" value="senha">
-                </form>
-            </ul>
-            <ul>
-                <form id="check-box">
-                    <input type="checkbox" name="check" id="check" value="">
-                    <label for="check">Lembre-me</label>
-                </form>
-            </ul>
-            <ul>
-                <li class="botao_login"><a href="../html/perfil_usuario.html">Entrar</a></li>
-            </ul>
-            <ul>
-                <h3><a href="../html/recuperar_nome.html">Esqueceu Nome de Usuário?</a></h3>
-            </ul>
-            <ul>
-                <h3><a href="../html/redefinir_senha.html">Esqueceu Senha?</a></h3>
-            </ul>
-            <ul>
-                <h3><a href="#">Criar Conta</a></h3>
-            </ul>
-        </nav>
+        -->
+        <ul>
+          <form id="login">
+            <input type="text" name="nome_usuario" id="nome_usuario" value="Nome de Usuário"
+            />
+        </ul>
+        <ul>
+            <input type="password" name="senha" id="senha" value="senha" />
+        </ul>
+        <ul id="check-box">
+            <input type="checkbox" name="check" id="check" value="" />
+            <label for="check">Lembre-me</label>
+        </ul>
+      </form>
+        <ul>
+          <li class="botao_login">
+            <a href="../html/perfil_usuario.html">Entrar</a>
+          </li>
+        </ul>
+        <ul>
+          <h3>
+            <a href="../html/recuperar_nome.html">Esqueceu Nome de Usuário?</a>
+          </h3>
+        </ul>
+        <ul>
+          <h3><a href="../html/redefinir_senha.html">Esqueceu Senha?</a></h3>
+        </ul>
+        <ul>
+          <h3><a href="#">Criar Conta</a></h3>
+        </ul>
+      </nav>
     </main>
-</body>
+  </body>
 </html>
