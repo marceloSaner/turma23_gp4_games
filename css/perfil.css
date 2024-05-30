@@ -1,511 +1,566 @@
 /* Importando a fonte Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 /* Zerando os espaçamentos */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body * {
-    font-size: 1.6rem;
-    font-family: 'Roboto', sans-serif;
-    color: var(--button-bg-color);
-    /*border: 1px solid red;*/
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  color: var(--button-bg-color);
+  /*border: 1px solid red;*/
 }
 
 :root {
-    background-color: black;
-    font-size: 62.5%;
-    --nav-bg-color: #bfbfbf;
-    --nav-text-color: #020873;
-    --button-bg-color: #ffffff;
-    --button-text-color: #020873;
+  background-color: black;
+  font-size: 62.5%;
+  --nav-bg-color: #bfbfbf;
+  --nav-text-color: #020873;
+  --button-bg-color: #ffffff;
+  --button-text-color: #020873;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .botao_ex {
-    display: inline-flex;
-    justify-content:center;
-    align-items: center;
-    width: 14rem;
-    height: 2.5rem;
-    background: var(--button-bg-color);
-    border-radius: .8rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 14rem;
+  height: 2.5rem;
+  background: var(--button-bg-color);
+  border-radius: 0.8rem;
 }
 
 .menu_superior ul li a {
-    color: #020873;
-    font-weight: 800;
+  color: #020873;
+  font-weight: 800;
 }
 
 .botao {
-    display: inline-flex;
-    justify-content:center;
-    align-items: center;
-    width: 13rem;
-    height: 3rem;
-    background: var(--button-text-color);
-    color: var(--button-bg-color);
-    border-radius: .8rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+  height: 3rem;
+  background: var(--button-text-color);
+  color: var(--button-bg-color);
+  border-radius: 0.8rem;
 }
 
-
 #cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #020873;
-    border-radius: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    height: 8rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #020873;
+  border-radius: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 #logo img {
-    width: 8rem;
-    height: 8rem;
-    margin-left: 1rem;
+  width: 8rem;
+  height: 8rem;
+  margin-left: 1rem;
 }
 
 .menu_superior {
-    padding-right: 1rem;
+  padding-right: 1rem;
 }
 
 .menu_superior ul {
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-    list-style: none;
-    margin-right: 15rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
+  margin-right: 15rem;
 }
 
 .menu_superior a {
-    font-size: 2rem;
-    color: var(--button-bg-color);
+  font-size: 2rem;
+  color: var(--button-bg-color);
 }
 
 #menu_superior {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .search-box {
-    transform: translate(-50%, -50%);
-    background: white;
-    height: 3rem;
-    padding: 1rem;
-    margin-top: 3rem;
-    border-radius: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;   
+  transform: translate(-50%, -50%);
+  background: white;
+  height: 3rem;
+  padding: 1rem;
+  margin-top: 3rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .search-txt {
-    border: none;
-    background: none;
-    outline: none;
-    padding: 0;
-    color: #020873;
-    font-size: 2rem;
-    font-weight: 800;
-    line-height: 2.5rem;
-    width: 0;
-    transition: .5s;
-    font-family: 'Roboto', sans-serif;
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  color: #020873;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2.5rem;
+  width: 0;
+  transition: 0.5s;
+  font-family: "Roboto", sans-serif;
 }
 
 ::-webkit-input-placeholder {
-    color:#020873
+  color: #020873;
 }
 
 .search-buttom {
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
-    background: #020873;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: .5s;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: #020873;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
 }
 
 .search-box:hover > .search-txt {
-    width: 25rem;
-    padding: 0 0.5rem;
+  width: 25rem;
+  padding: 0 0.5rem;
 }
 
 .search-box:hover > .search-buttom {
-    background: #192850;
-} 
+  background: #192850;
+}
 
 .search-box img {
-    width: 7rem;
-    height: 7rem;
-    margin-right: 1rem;
+  width: 7rem;
+  height: 7rem;
+  margin-right: 1rem;
 }
 
 #corpo {
-    display: flex;
-    padding: 1rem;
-    gap: 1rem;
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 #menu_lateral {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 #menu_lateral img {
-    width: 10rem;
-    border-radius: 1rem;
+  width: 10rem;
+  border-radius: 1rem;
 }
 
 #lateral {
-    width: 30rem;
-    border-radius: 2rem;
-    padding: 1rem;
-    background-color: #020873;
-    color: var(--button-bg-color);
+  width: 30rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  background-color: #020873;
+  color: var(--button-bg-color);
 }
 
 #finalizar {
-    display: flex;
-    padding-top: 2rem;
-    justify-content: center;
-    align-items: end;
-    height: 21.5rem;
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center;
+  align-items: end;
+  height: 21.5rem;
 }
 
 #conta #finalizar a {
-    color: #020873;
-    font-weight: 800;
+  color: #020873;
+  font-weight: 800;
 }
 
 #conta ul {
-    list-style: none;
+  list-style: none;
 }
 
 #conta {
-    padding-top: 1rem;
-    font-weight: 800;
+  padding-top: 1rem;
+  font-weight: 800;
 }
 
 #conta nav {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 #conta li {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 #perfil {
-    width: 100rem;
+  width: 100rem;
 }
 
 #perfil h1 {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 #perfil img {
-    width: 10rem;
-    border-radius: 1rem;
+  width: 10rem;
+  border-radius: 1rem;
 }
 
 .perfil {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
-.perfil h3{
-    width: 20rem;
+.perfil h3 {
+  width: 20rem;
 }
 
 #editar {
-    display: flex;
-    padding-top: 2rem;
-    gap: 1.5rem;
-    justify-content: end;
+  display: flex;
+  padding-top: 2rem;
+  gap: 1.5rem;
+  justify-content: end;
 }
 
 #copy-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
 }
 
 #copy-left img {
-    width: 2.3rem;
+  width: 2.3rem;
 }
 
 footer {
-    background-color: #020873;
-    border-radius: 2rem;
-    height: 13rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: none;
-    margin-bottom: 10px; 
-    padding-top: 10px;  
-    padding-bottom: 130px;
+  background-color: #020873;
+  border-radius: 2rem;
+  height: 13rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: none;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 130px;
 }
 
 footer nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer nav ul {
-    display: flex;
-    align-items: start;
-    list-style: none;
-    padding-left: 8rem;
-    padding-top: 2rem;
+  display: flex;
+  align-items: start;
+  list-style: none;
+  padding-left: 8rem;
+  padding-top: 2rem;
 }
 
 footer nav ul li a {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 footer nav img {
-    width: 3.5rem;
+  width: 3.5rem;
 }
 
 footer #contato {
-    color: #020873;
-    font-weight: 800;
+  color: #020873;
+  font-weight: 800;
 }
 
 footer #logo img {
-    width: 30rem;
+  width: 30rem;
 }
 
 h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 /* Configurações da Pagina de Jogos Preferidos */
 
 #preferidos {
-    width: 130rem;
+  width: 130rem;
 }
 
 .preferidos-c {
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
-    padding-bottom: 2.5rem;
-    padding-top: 2.5rem;
-    margin-bottom: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .preferidos-c img {
-    border-radius: 2rem;
-    width: 18rem;
-    height: 13rem;
-    padding: 1rem;
+  border-radius: 2rem;
+  width: 18rem;
+  height: 13rem;
+  padding: 1rem;
 }
 
 .preferidos-c p {
-    font-size: 13px;
-    text-align: center;
+  font-size: 13px;
+  text-align: center;
 }
 
 .preferidos-b {
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-    margin-bottom: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .preferidos-b img {
-    border-radius: 2rem;
-    width: 18rem;
-    height: 13rem;
-    padding: 1rem;
+  border-radius: 2rem;
+  width: 18rem;
+  height: 13rem;
+  padding: 1rem;
 }
 
 .preferidos-b p {
-    font-size: 13px;
-    text-align: center;
+  font-size: 13px;
+  text-align: center;
 }
-
 
 /* teste de texto sobre a imgem com CSS*/
 
 .card {
-    display: flex;
-    justify-content: center;
-    width: 350px;
-    height: 135px;
-    position: relative;
-    border-radius: 20px;
-    transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  height: 135px;
+  position: relative;
+  border-radius: 20px;
+  transition: 0.5s;
 }
-
-/*
-.card:hover {
-    height: 400px;
-}
-*/
 
 .card .img-box {
-    position: absolute;
-    width: 240px;
-    height: 145px;
-    top: 0px;
-    transition: 0.5s;
+  position: absolute;
+  width: 240px;
+  height: 145px;
+  top: 0px;
+  transition: 0.5s;
 }
 
 .card:hover .img-box {
-/*    top: -100px;*/
-    scale: 1;
+  /*    top: -100px;*/
+  scale: 1;
 }
 
 .card .img-box img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .card .conteudo {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    position: absolute;
-    top: 140px;
-    padding: 0px 30px;
-    text-align: center;
-    height: 30px;
-    overflow: hidden;
-    transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  position: absolute;
+  top: 140px;
+  padding: 0px 30px;
+  text-align: center;
+  height: 30px;
+  overflow: hidden;
+  transition: 0.5s;
 }
 
 .card .conteudo p {
-    width: 240px;
+  width: 240px;
 }
 
 .card:hover .conteudo {
-    top: 100px;
-    height: 130px;
+  top: 100px;
+  height: 130px;
 }
-
-
 
 /* Configurações da Pagina de Editar Perfil */
 
 #editar_perfil {
-    width: 100rem;
+  width: 100rem;
 }
 
 #foto_perfil {
-    border-radius: 1rem;
-    width: 10rem;
+  border-radius: 1rem;
+  width: 10rem;
 }
 
 #avatar {
-    border-radius: 1rem;
-    width: 10rem;
+  border-radius: 1rem;
+  width: 10rem;
 }
 
 .editar_perfil {
-    display: flex;
-    align-items: center;
-    width: 100rem;
-    margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  width: 100rem;
+  margin-bottom: 1rem;
 }
 
 .editar_perfil label {
-    width: 20rem;
-    font-weight: 800;
+  width: 20rem;
+  font-weight: 800;
 }
 
-.editar_perfil input {
-    border-radius: .5rem;
-    width: 50rem;
-    color: #020873;
+.editar_perfil select {
+  border-radius: 0.5rem;
+  width: 30rem;
+  height: 3rem;
+  color: #020873;
+  font-weight: 800;
+  background-color: grey;
 }
 
-.editar_perfil #nome_usuario {
-    height: 3rem;
+.editar_perfil #nome_usuario_origem {
+  width: 30rem;
+  height: 3rem;
+  background-color: gray;
+  color: #020873;
+  font-weight: 800;
 }
-.editar_perfil #nome_completo {
-    height: 3rem;
+.editar_perfil #nome_completo_origem {
+  width: 30rem;
+  height: 3rem;
+  background-color: gray;
+  color: #020873;
+  font-weight: 800;
 }
 
 .editar_perfil #idioma {
-    height: 3rem;
+  height: 3rem;
 }
 
 .editar_perfil textarea {
-    border-radius: 1rem;
-    width: 50rem;
+  border-radius: 1rem;
+  width: 50rem;
+  color: #020873;
+  font-weight: 800;
+  background-color: gray;
 }
-
 
 /* Configurações da Pagina de Excluir Conta */
 
+.botao_excluir {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+  height: 3rem;
+  background: #020873;
+  color: white;
+  border: #020873;
+  border-radius: 0.8rem;
+}
+
 #excluir_conta {
-    width: 100rem;
+  width: 100rem;
 }
 
 #excluir_conta h1 {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .excluir_conta #email {
-    border-radius: .5rem;
-    width: 50rem;
-    height: 3rem;
-    color: #020873;
+  border-radius: 1rem;
+  width: 50rem;
+  height: 4rem;
+  color: #020873;
+  text-align: center;
+  font-size: 2rem;
 }
 
 /* Configurações da Recuperar nome de usuário */
 
 #recuperar_nome {
-    width: 120rem;
-    margin-left: 4rem;
+  width: 120rem;
+  margin-left: 4rem;
 }
 
 .recuperar_nome {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .recuperar_nome #email {
-    border-radius: .5rem;
-    width: 50rem;
-    height: 3rem;
-    color: #020873;
+  border-radius: 0.5rem;
+  width: 50rem;
+  height: 3rem;
+  color: #020873;
 }
 
 /* Configurações da Redefinir Senha */
 
 #redefinir_senha {
-    width: 120rem;
-    margin-left: 4rem;
+  width: 120rem;
+  margin-left: 4rem;
 }
 
 .redefinir_senha {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .redefinir_senha #email {
-    border-radius: .5rem;
-    width: 50rem;
-    height: 3rem;
-    color: #020873;
+  border-radius: 0.5rem;
+  width: 50rem;
+  height: 3rem;
+  color: #020873;
+}
+
+/* ---------- Estilos coipados da aula ---------- */
+
+.helper-text {
+  display: none;
+  font-size: 1.3rem;
+  color: red;
+  margin-left: 20rem;
+}
+
+.required-popup::after {
+  content: "*Campo obrigatório";
+  position: absolute;
+  top: 14.3rem;
+  right: 96.5rem;
+  color: red;
+  font-size: 1.3rem;
+  font-weight: 800;
+  padding: 0.2rem 0.3rem;
+  width: auto;
+  display: block;
+}
+
+input.error {
+  border: solid 2px #992020;
+  background-color: #ccbbbb;
+  color: #662020;
+}
+
+input.correct {
+  background-color: #bbccbb;
+  border: solid 2px #206620;
+  color: #206620;
+}
+
+.visible {
+  display: block;
 }

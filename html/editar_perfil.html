@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Perfil do Usuário</title>
     <link rel="stylesheet" href="../css/perfil.css" />
+    <script src="../js/editar_perfil.js" defer></script>
   </head>
   <body>
     <header>
@@ -43,9 +44,9 @@
               <img src="../imagens/avatar.jpg" alt="" />
             </section>
             <section id="usuario">
-              <div><strong>Nome Completo</strong></div>
-              <div>Nome de Usuário</div>
-              <div>email</div>
+              <span id="nome_completo"></span>
+              <span id="nome_usuario"></span>
+              <div>msaner@uol.com.br</div>
             </section>
             <!--Fim id=menu_lateral-->
           </section>
@@ -74,18 +75,20 @@
               <label for="nome_usuario">Nome de Usuário:</label>
               <input
                 type="text"
-                name="nome_usuario"
-                id="nome_usuario"
-                value="nome de usuário"
+                placeholder="Nome de Usuário"
+                name="nome_usuario_origem"
+                id="nome_usuario_origem"
+                value="msaner"
               />
             </section>
             <section class="editar_perfil">
               <label for="nome_completo">Nome Completo:</label>
               <input
                 type="text"
-                name="nome_completo"
-                id="nome_completo"
-                value="nome completo"
+                placeholder="Nome Completo"
+                name="nome_completo_origem"
+                id="nome_completo_origem"
+                value="Marcelo Saner Tavares"
               />
             </section>
             <section class="editar_perfil">
@@ -109,12 +112,23 @@
               />
             </section>
             <section class="editar_perfil">
-              <label for="sobre">Sobre:</label>
-              <textarea name="sobre" id="sobre"></textarea>
+              <label for="idioma">Idioma:</label>
+              <select name="idioma">
+                <option value="">Selecione o Idioma</option>
+                <option value="Portugues">Portugês</option>
+                <option value="English">English</option>
+                <option value="Deutsch">Deutsch</option>
+                <option value="Espanhol">Espanhol</option>
+                <option value="Italiano">Italiano</option>
+              </select>
             </section>
             <section class="editar_perfil">
-              <label for="idioma">Idioma:</label>
-              <input type="text" name="idioma" id="idioma" value="Idioma" />
+              <label for="sobre">Sobre:</label>
+              <textarea
+                name="sobre"
+                id="sobre"
+                placeholder="Informações adicionais"
+              ></textarea>
             </section>
             <div id="editar">
               <li class="botao">Salvar</li>

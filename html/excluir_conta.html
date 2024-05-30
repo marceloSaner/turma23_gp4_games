@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Perfil do Usuário</title>
     <link rel="stylesheet" href="../css/perfil.css" />
+    <script src="../js/excluir_conta.js" defer></script>
   </head>
   <body>
     <header>
@@ -43,9 +44,9 @@
               <img src="../imagens/avatar.jpg" alt="" />
             </section>
             <section id="usuario">
-              <div><strong>Nome Completo</strong></div>
-              <div>Nome de Usuário</div>
-              <div>email</div>
+              <div><strong>Marcelo Saner Tavares</strong></div>
+              <div>msaner</div>
+              <div>msaner@uol.com.br</div>
             </section>
             <!--Fim id=menu_lateral-->
           </section>
@@ -71,19 +72,24 @@
           <form id="frm_excluir_conta">
             <section class="excluir_conta">
               <label for="email">Digite o email cadastrado:</label>
-              <input type="email" name="email" id="email" value="email" />
+              <input type="email" name="email" id="email" value="" />
+              <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
             </section>
+            <!--
             <section class="excluir_conta">
               <label for="confirmar">Clique para confirmar:</label>
-              <input
-                type="checkbox"
-                name="confirmar"
-                id="confirmar"
-                value="excluir"
-              />
+              <input type="checkbox" name="confirmar" id="confirmar" value="" />
             </section>
+
+            -->
             <div id="editar">
-              <li class="botao">Excluir</li>
+              <button
+                class="botao_excluir"
+                type="submit"
+                onclick="excluir(); return false"
+              >
+                Excluir
+              </button>
               <li class="botao">
                 <a href="./perfil_usuario.html"> Cancelar</a>
               </li>

@@ -51,11 +51,15 @@ a {
 
 .botao_login {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 19rem;
   height: 5rem;
-  background: var(--button-text-color);
-  color: var(--button-bg-color);
+  font-size: 2rem;
+  background: #020873;
+  color: white;
   border-radius: 1.8rem;
+  border: #020873;
 }
 
 #cabecalho {
@@ -82,11 +86,18 @@ a {
   height: 6rem;
 }
 
-ul {
+.login {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0.5rem;
+}
+
+label {
+  align-self: start;
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 
 li {
@@ -106,6 +117,7 @@ li {
 
 #check-box {
   display: flex;
+  padding-top: 1rem;
 }
 
 #check-box input {
@@ -123,4 +135,54 @@ li {
 
 h3 a {
   font-size: 2rem;
+}
+
+#enviar {
+  background-color: #020873;
+  border: #020873;
+  color: #ffffff;
+  width: 19rem;
+  height: 5rem;
+}
+
+::placeholder {
+  color: #020873;
+  font-weight: 800;
+}
+
+/* ---------- Estilos coipados da aula ---------- */
+
+.helper-text {
+  display: none;
+  font-size: 1.3rem;
+  color: red;
+}
+
+.required-popup::after {
+  content: "*Campo obrigatório";
+  position: absolute;
+  top: auto;
+  right: 29rem;
+  color: red;
+  font-size: 1.3rem;
+  font-weight: 800;
+  padding: 0.2rem 0.3rem;
+  width: auto;
+  display: block;
+}
+
+input.error {
+  border: solid 2px #992020;
+  background-color: #ccbbbb;
+  color: #662020;
+}
+
+input.correct {
+  background-color: #bbccbb;
+  border: solid 2px #206620;
+  color: #206620;
+}
+
+.visible {
+  display: block;
 }

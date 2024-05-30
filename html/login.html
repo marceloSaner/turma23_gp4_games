@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
     <link rel="stylesheet" href="../css/login.css" />
+    <script src="../js/login.js" defer></script>
   </head>
   <body>
     <main>
@@ -30,31 +31,46 @@
         </section>
       </header>
       <nav class="login">
-        <!----    <ul>
-                <li class="botao"><img src="../imagens/icones/facebook.svg"><a href="#">Login com Facebook</a></li>
-            </ul>
-            <ul>
-                <li class="botao"><img src="../imagens/icones/google.svg"> <a href="#">Login com Google</a></li>
-            </ul>
+        <!---- login pelo facebook ou google 
+        <ul>
+          <li class="botao"><img src="../imagens/icones/facebook.svg"><a href="#">Login com Facebook</a></li>
+        </ul>
+        <ul>
+          <li class="botao"><img src="../imagens/icones/google.svg"> <a href="#">Login com Google</a></li>
+        </ul>
         -->
-        <ul>
-          <form id="login">
-            <input type="text" name="nome_usuario" id="nome_usuario" value="Nome de Usuário"
-            />
-        </ul>
-        <ul>
-            <input type="password" name="senha" id="senha" value="senha" />
-        </ul>
-        <ul id="check-box">
-            <input type="checkbox" name="check" id="check" value="" />
-            <label for="check">Lembre-me</label>
-        </ul>
-      </form>
-        <ul>
-          <li class="botao_login">
-            <a href="../html/perfil_usuario.html">Entrar</a>
-          </li>
-        </ul>
+        <form action="" id="login">
+          <ul class="login">
+            <label for="nome_usuario">*Nome de Usuário:</label>
+            <input type="text" placeholder="" id="nome_usuario" />
+            <p id="nome_usuario-helper" class="helper-text">
+              Mensagem de ajuda
+            </p>
+          </ul>
+          <ul class="login">
+            <label for="senha">*Senha:</label>
+            <input type="password" placeholder="" id="senha" />
+            <p id="senha-helper" class="helper-text">Mensagem de ajuda</p>
+          </ul>
+          <!--- lembre-me
+          <section id="lembrar">
+            <ul id="check-box" class="login">
+              <input type="checkbox" name="check" id="check" value="" />
+              <label for="check">Lembre-me</label>
+            </ul>
+          </section>
+
+        -->
+          <ul class="login">
+            <button
+              class="botao_login"
+              type="submit"
+              onclick="logar(); return false"
+            >
+              Entrar
+            </button>
+          </ul>
+        </form>
         <ul>
           <h3>
             <a href="../html/recuperar_nome.html">Esqueceu Nome de Usuário?</a>
