@@ -52,7 +52,7 @@ let inputsCorretos = {
   email: false,
 };
 
-function excluir() {
+function enviar() {
   if (inputsCorretos.email == false) {
     //e.preventDefault();
     alert("O campo email tem que ser preenchido com um email válido!");

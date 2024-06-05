@@ -295,202 +295,6 @@ h1 {
   font-size: 3rem;
 }
 
-/* Configurações da Pagina de Jogos Preferidos */
-
-#preferidos {
-  width: 130rem;
-}
-
-.preferidos-c {
-  display: flex;
-  gap: 1.5rem;
-  justify-content: center;
-  padding-bottom: 2.5rem;
-  padding-top: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.preferidos-c img {
-  border-radius: 2rem;
-  width: 18rem;
-  height: 13rem;
-  padding: 1rem;
-}
-
-.preferidos-c p {
-  font-size: 13px;
-  text-align: center;
-}
-
-.preferidos-b {
-  display: flex;
-  gap: 1.5rem;
-  justify-content: center;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.preferidos-b img {
-  border-radius: 2rem;
-  width: 18rem;
-  height: 13rem;
-  padding: 1rem;
-}
-
-.preferidos-b p {
-  font-size: 13px;
-  text-align: center;
-}
-
-/* teste de texto sobre a imgem com CSS*/
-
-.card {
-  display: flex;
-  justify-content: center;
-  width: 350px;
-  height: 135px;
-  position: relative;
-  border-radius: 20px;
-  transition: 0.5s;
-}
-
-.card .img-box {
-  position: absolute;
-  width: 240px;
-  height: 145px;
-  top: 0px;
-  transition: 0.5s;
-}
-
-.card:hover .img-box {
-  /*    top: -100px;*/
-  scale: 1;
-}
-
-.card .img-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.card .conteudo {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  position: absolute;
-  top: 140px;
-  padding: 0px 30px;
-  text-align: center;
-  height: 30px;
-  overflow: hidden;
-  transition: 0.5s;
-}
-
-.card .conteudo p {
-  width: 240px;
-}
-
-.card:hover .conteudo {
-  top: 100px;
-  height: 130px;
-}
-
-/* Configurações da Pagina de Editar Perfil */
-
-#editar_perfil {
-  width: 100rem;
-}
-
-#foto_perfil {
-  border-radius: 1rem;
-  width: 10rem;
-}
-
-#avatar {
-  border-radius: 1rem;
-  width: 10rem;
-}
-
-.editar_perfil {
-  display: flex;
-  align-items: center;
-  width: 100rem;
-  margin-bottom: 1rem;
-}
-
-.editar_perfil label {
-  width: 20rem;
-  font-weight: 800;
-}
-
-.editar_perfil select {
-  border-radius: 0.5rem;
-  width: 30rem;
-  height: 3rem;
-  color: #020873;
-  font-weight: 800;
-  background-color: grey;
-}
-
-.editar_perfil #nome_usuario_origem {
-  width: 30rem;
-  height: 3rem;
-  background-color: gray;
-  color: #020873;
-  font-weight: 800;
-}
-.editar_perfil #nome_completo_origem {
-  width: 30rem;
-  height: 3rem;
-  background-color: gray;
-  color: #020873;
-  font-weight: 800;
-}
-
-.editar_perfil #idioma {
-  height: 3rem;
-}
-
-.editar_perfil textarea {
-  border-radius: 1rem;
-  width: 50rem;
-  color: #020873;
-  font-weight: 800;
-  background-color: gray;
-}
-
-/* Configurações da Pagina de Excluir Conta */
-
-.botao_excluir {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 13rem;
-  height: 3rem;
-  background: #020873;
-  color: white;
-  border: #020873;
-  border-radius: 0.8rem;
-}
-
-#excluir_conta {
-  width: 100rem;
-}
-
-#excluir_conta h1 {
-  margin-bottom: 1.5rem;
-}
-
-.excluir_conta #email {
-  border-radius: 1rem;
-  width: 50rem;
-  height: 4rem;
-  color: #020873;
-  text-align: center;
-  font-size: 2rem;
-}
-
 /* Configurações da Recuperar nome de usuário */
 
 #recuperar_nome {
@@ -509,6 +313,18 @@ h1 {
   color: #020873;
   text-align: center;
   font-size: 2rem;
+}
+
+.botao_excluir {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+  height: 3rem;
+  background: #020873;
+  color: white;
+  border: 0;
+  border-radius: 0.8rem;
 }
 
 /* Configurações da Redefinir Senha */
@@ -541,8 +357,8 @@ h1 {
 .required-popup::after {
   content: "*Campo obrigatório";
   position: absolute;
-  top: 14.3rem;
-  right: 96.5rem;
+  top: 15.5rem;
+  right: 122rem;
   color: red;
   font-size: 1.3rem;
   font-weight: 800;

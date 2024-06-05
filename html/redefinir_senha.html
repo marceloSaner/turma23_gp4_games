@@ -1,81 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Redefinir Senha</title>
-    <link rel="stylesheet" href="../css/perfil.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/redefinir_senha.css" />
+    <script src="../js/redefinir_senha.js" defer></script>
+  </head>
+  <body>
     <header>
-        <section id="cabecalho">
-            <div id="logo">
-                <img src="../imagens/icones/LogoNG.svg" alt="Logotipo da NetGames">
-            </div>
-            <div id="menu_superior">
-                <nav class="menu_superior">
-                    <ul>
-                        <li class="botao_ex"><a href="../index.html">home</a></li>
-                        <li class="botao_ex"><a href="./jogos.html">Jogos</a></li>
-                        <li class="botao_ex"><a href="./comunidade.html">Comunidade</a></li>
-                        <li class="botao_ex"><a href="./biblioteca.html">Biblioteca</a></li>
-                        <li class="botao_ex"><a href="./sobre_nos.html">Sobre Nós</a></li>
-                    </ul>
-                </nav>
-                <div class="search-box">
-                    <input type="text" class="search-txt" placeholder="Pesquisar">
-                    <a href="#" class="search-buttom">
-                    <img src="../imagens/icones/lupa.svg" alt="Lupa">
-                    </a>               
-                </div>
-            </div>
-        </section>
+      <section id="cabecalho">
+        <div id="logo">
+          <img src="../imagens/icones/LogoNG.svg" alt="Logotipo da NetGames" />
+        </div>
+        <div id="menu_superior">
+          <nav class="menu_superior">
+            <ul>
+              <li class="botao_ex"><a href="../index.html">Home</a></li>
+              <li class="botao_ex"><a href="./jogos.html">Jogos</a></li>
+              <li class="botao_ex">
+                <a href="./comunidade.html">Comunidade</a>
+              </li>
+              <li class="botao_ex">
+                <a href="./biblioteca.html">Biblioteca</a>
+              </li>
+              <li class="botao_ex"><a href="./sobre_nos.html">Sobre Nós</a></li>
+            </ul>
+          </nav>
+          <div class="search-box">
+            <input type="text" class="search-txt" placeholder="Pesquisar" />
+            <a href="#" class="search-buttom">
+              <img src="../imagens/icones/lupa.svg" alt="Lupa" />
+            </a>
+          </div>
+        </div>
+      </section>
     </header>
     <main>
-        <section id="corpo">
-            <section id="redefinir_senha">
-                <h1>Pedido de Refenição de Senha do Usuário</h1>
-                <h2>Por favor, insira o endereço de email da sua conta. Um código de verificação será enviado a você. Depois de receber o código de verificação, você poderá escolher uma nova senha para sua conta.</h2>
-                <form id="frm_redefinir_senha">
-                    <section class="redefinir_senha">
-                        <label for="email">Digite o email cadastrado:</label>
-                        <input type="email" name="email" id="email" value="email">
-                    </section>
-                    <div id="editar">
-                        <li class="botao">Enviar</li>
-                        <li class="botao"><a href="../html/login.html">Cancelar</a></li>
-                    </div>
-                </form>
+      <section id="corpo">
+        <section id="redefinir_senha">
+          <h1>Pedido de Refenição de Senha do Usuário</h1>
+          <h2>
+            Por favor, insira o endereço de email associado a sua conta de
+            usuário. Será enviado para o endereço de email cadastrado um link
+            para redefinir senha.
+          </h2>
+          <form id="frm_redefinir_senha">
+            <section class="redefinir_senha">
+              <label for="email">Digite o email cadastrado:</label>
+              <input type="email" name="email" id="email" value="" />
+              <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
             </section>
-    </section>
+            <div id="editar">
+              <button
+                class="botao_excluir"
+                type="submit"
+                onclick="enviar(); return false"
+              >
+                Enviar
+              </button>
+              <li class="botao"><a href="../html/login.html">Cancelar</a></li>
+            </div>
+          </form>
+        </section>
+      </section>
     </main>
     <footer>
-        <nav>
-            <ul>
-                <li id="logo"><img src="../imagens/icones/SloganNetGames.svg" alt="Logotipo da NetGames"></li>
-            </ul>
-            <ul>
-                <li><a href="../index.html">Início</a></li>
-            </ul>
-            <ul>
-                <li><a href="./sobre_nos.html">Sobre Nós</a></li>
-            </ul>
-            <section>
-                <ul>
-                    <li><img src="../imagens/icones/linkedn.svg"></li>
-                    <li><img src="../imagens/icones/facebook.svg"></li>
-                    <li><img src="../imagens/icones/instagram.svg"></li>
-                    <li><img src="../imagens/icones/whatsapp.svg"></li>
-                </ul>
-                <ul>
-                    <li class="botao_ex"><a id="contato" href="#">Contato</a></li>
-                </ul>
-            </section>
-        </nav>
-        <section id="copy-left">
-            <p><strong>NetGames 2024</strong></p>
-            <p><img src="../imagens/icones/copyLeft.svg"></p>
+      <nav>
+        <ul>
+          <li id="logo">
+            <img
+              src="../imagens/icones/SloganNetGames.svg"
+              alt="Logotipo da NetGames"
+            />
+          </li>
+        </ul>
+        <ul>
+          <li><a href="../index.html">Início</a></li>
+        </ul>
+        <ul>
+          <li><a href="./sobre_nos.html">Sobre Nós</a></li>
+        </ul>
+        <section>
+          <ul>
+            <li><img src="../imagens/icones/linkedn.svg" /></li>
+            <li><img src="../imagens/icones/facebook.svg" /></li>
+            <li><img src="../imagens/icones/instagram.svg" /></li>
+            <li><img src="../imagens/icones/whatsapp.svg" /></li>
+          </ul>
+          <ul>
+            <li class="botao_ex"><a id="contato" href="#">Contato</a></li>
+          </ul>
         </section>
+      </nav>
+      <section id="copy-left">
+        <p><strong>NetGames 2024</strong></p>
+        <p><img src="../imagens/icones/copyLeft.svg" /></p>
+      </section>
     </footer>
-</body>
+  </body>
 </html>
