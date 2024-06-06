@@ -6,22 +6,59 @@ body{
 }
 
 
-body, ul, li, p {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    font-size: 1.2rem;
-}
-
-
-a{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body * {
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    color: var(--button-bg-color);
+    /*border: 1px solid red;*/
+  }
+  
+  :root {
+    background-color: black;
+    font-size: 62.5%;
+    --nav-bg-color: #bfbfbf;
+    --nav-text-color: #020873;
+    --button-bg-color: #ffffff;
+    --button-text-color: #020873;
+  }
+  
+  a {
     text-decoration: none;
-    align-items: center
-    ;
-}
-
-/* Cabeçalho do site */
-#cabecalho {
+  }
+  
+  .botao_ex {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 2.5rem;
+    background: var(--button-bg-color);
+    border-radius: 0.8rem;
+  }
+  
+  .menu_superior ul li a {
+    color: #020873;
+    font-weight: 800;
+  }
+  
+  .botao {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    height: 3rem;
+    background: var(--button-text-color);
+    color: var(--button-bg-color);
+    border-radius: 0.8rem;
+  }
+  
+  #cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,52 +69,49 @@ a{
     height: 8rem;
     margin-left: 1rem;
     margin-right: 1rem;
-}
-
-#logo img {
+  }
+  
+  #logo img {
     width: 8rem;
     height: 8rem;
     margin-left: 1rem;
-}
-
-.menu_superior {
+  }
+  
+  .menu_superior {
     padding-right: 1rem;
-}
-
-.menu_superior ul {
+  }
+  
+  .menu_superior ul {
     display: flex;
     align-items: center;
     gap: 3rem;
     list-style: none;
     margin-right: 15rem;
-}
-
-.menu_superior a {
+  }
+  
+  .menu_superior a {
     font-size: 2rem;
     color: var(--button-bg-color);
-}
-
-#menu_superior {
+  }
+  
+  #menu_superior {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-
-.search-box {
+  }
+  
+  .search-box {
     transform: translate(-50%, -50%);
     background: white;
-    height: 3rem;
-    padding: 1rem;
     margin-top: 3rem;
     border-radius: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;   
-}
-
-.search-txt {
+    align-items: center;
+  }
+  
+  .search-txt {
     border: none;
     background: none;
     outline: none;
@@ -87,37 +121,45 @@ a{
     font-weight: 800;
     line-height: 2.5rem;
     width: 0;
-    transition: .5s;
-    font-family: 'Roboto', sans-serif;
-}
-
-::-webkit-input-placeholder {
-    color:#020873
-}
-
-.search-buttom {
-    width: 2.5rem;
-    height: 2.5rem;
+    transition: 0.5s;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #020873;
+  }
+  
+  .search-buttom {
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
-    background: #020873;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: .5s;
-}
+    transition: 0.5s;
+  }
+  
+  .search-box:hover > .search-txt {
+    width: 25rem;
+    padding: 0 0.5rem;
+  }
+  
+  .search-box:hover > .search-buttom {
+    background: #192850;
+  }
 /* Cabeçalho do site */
 
 /* Titulos */
 h1{
     text-align: center;
     font-size: 70px;
-    margin-top: 100px;
+    margin-top: 50px;
     color: white;
 }
 h2{
     margin: 70px;
-    font-size: 40px;
-    margin-top: 100px;
+    font-size: 50px;
+    margin-top: 20px;
     color: white;
 }
 /* Titulos */
@@ -126,7 +168,7 @@ h2{
 img {
     max-width: 100%;
     display: block;
-    margin: 20px;
+    margin: px;
     justify-content: space-between;
 }
 
@@ -134,24 +176,19 @@ img {
 .flex {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
-}
-.flex > div{
-    flex: 1 1 200px;
-    margin: 10px;
-    padding: 20px;
+    justify-content: space-evenly;
+    margin-top: 1px;
 }
 
 .flex > div >img{
-    height: 500px;
-    width: 500px;
-    justify-content: space-between;
-    border-radius: 5px;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
 }
 
 
 p{
-    padding: 20px;
+    padding: 10px;
     color: white;
 
 }
@@ -161,8 +198,10 @@ div > a{
     justify-content: center;
 }
 div > p{
-    width: 500px;
+    width: 400px;
 }
+
+/*Rodape*/
 
 footer {
     background-color: #020873;
@@ -171,50 +210,52 @@ footer {
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: none;
-    margin-bottom: 10px; 
-    padding-top: 10px;  
+    margin-bottom: 10px;
+    padding-top: 10px;
     padding-bottom: 130px;
-}
-
-footer nav {
+  }
+  
+  footer nav {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-footer nav ul {
+  }
+  
+  footer nav ul {
     display: flex;
     align-items: start;
     list-style: none;
     padding-left: 8rem;
     padding-top: 2rem;
-}
-
-footer nav ul li a {
+  }
+  
+  footer nav ul li a {
     font-size: 2.5rem;
-}
-
-footer nav img {
+  }
+  
+  footer nav img {
     width: 3.5rem;
-}
-
-#copy-left {
+  }
+  
+  #copy-left {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: .5rem;
-}
-
-#copy-left img {
+    margin-bottom: 0.5rem;
+  }
+  
+  #copy-left img {
     width: 2.3rem;
-}
-
-footer #contato {
+  }
+  
+  footer #contato {
     color: #020873;
     font-weight: 800;
-}
-
-footer #logo img {
+  }
+  
+  footer #logo img {
     width: 30rem;
-}
+  }
+  
 
+/*Rodape*/
