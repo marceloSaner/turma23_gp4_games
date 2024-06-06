@@ -230,6 +230,10 @@ a {
   width: 20rem;
 }
 
+.perfil #sobre {
+  margin-left: 15rem;
+}
+
 #editar {
   display: flex;
   padding-top: 2rem;
