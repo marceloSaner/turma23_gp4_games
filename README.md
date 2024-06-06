@@ -6,7 +6,7 @@ Projeto de implementar de criação de site chamado NetGames desenvolvido pela t
 
 O projeto está disponível online no seguinte link:
 
-[Ver Projeto no Vercel](https://turma23-gp4-games.vercel.app/)
+[Ver Projeto no Vercel](https://netgames.vercel.app/)/)
 
 ### JoyClass Turma 23
 
