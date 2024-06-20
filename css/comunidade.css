@@ -1,261 +1,252 @@
 /* Fonte */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body * {
-    font-size: 1.6rem;
-    font-family: "Roboto", sans-serif;
-    color: var(--button-bg-color);
-    /*border: 1px solid red;*/
-  }
-  
-  :root {
-    background-color: black;
-    font-size: 62.5%;
-    --nav-bg-color: #bfbfbf;
-    --nav-text-color: #020873;
-    --button-bg-color: #ffffff;
-    --button-text-color: #020873;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .botao_ex {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 14rem;
-    height: 2.5rem;
-    background: var(--button-bg-color);
-    border-radius: 0.8rem;
-  }
-  
-  .menu_superior ul li a {
-    color: #020873;
-    font-weight: 800;
-  }
-  
-  .botao {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 13rem;
-    height: 3rem;
-    background: var(--button-text-color);
-    color: var(--button-bg-color);
-    border-radius: 0.8rem;
-  }
-  
-  #cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #020873;
-    border-radius: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    height: 8rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  
-  #logo img {
-    width: 8rem;
-    height: 8rem;
-    margin-left: 1rem;
-  }
-  
-  .menu_superior {
-    padding-right: 1rem;
-  }
-  
-  .menu_superior ul {
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-    list-style: none;
-    margin-right: 15rem;
-  }
-  
-  .menu_superior a {
-    font-size: 2rem;
-    color: var(--button-bg-color);
-  }
-  
-  #menu_superior {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .search-box {
-    transform: translate(-50%, -50%);
-    background: white;
-    margin-top: 3rem;
-    border-radius: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .search-txt {
-    border: none;
-    background: none;
-    outline: none;
-    padding: 0;
-    color: #020873;
-    font-size: 2rem;
-    font-weight: 800;
-    line-height: 2.5rem;
-    width: 0;
-    transition: 0.5s;
-    font-family: "Roboto", sans-serif;
-  }
-  
-  ::-webkit-input-placeholder {
-    color: #020873;
-  }
-  
-  .search-buttom {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s;
-  }
-  
-  .search-box:hover > .search-txt {
-    width: 25rem;
-    padding: 0 0.5rem;
-  }
-  
-  .search-box:hover > .search-buttom {
-    background: #192850;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body * {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  color: var(--button-bg-color);
+  /*border: 1px solid red;*/
+}
+
+:root {
+  background-color: black;
+  font-size: 62.5%;
+  --nav-bg-color: #bfbfbf;
+  --nav-text-color: #020873;
+  --button-bg-color: #ffffff;
+  --button-text-color: #020873;
+}
+
+a {
+  text-decoration: none;
+}
+
+.botao_ex {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 14rem;
+  height: 2.5rem;
+  background: var(--button-bg-color);
+  border-radius: 0.8rem;
+}
+
+.menu_superior ul li a {
+  color: #020873;
+  font-weight: 800;
+}
+
+.botao {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+  height: 3rem;
+  background: var(--button-text-color);
+  color: var(--button-bg-color);
+  border-radius: 0.8rem;
+}
+
+#cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #020873;
+  border-radius: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#logo img {
+  width: 8rem;
+  height: 8rem;
+  margin-left: 1rem;
+}
+
+.menu_superior {
+  padding-right: 1rem;
+}
+
+.menu_superior ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
+  margin-right: 15rem;
+}
+
+.menu_superior a {
+  font-size: 2rem;
+  color: var(--button-bg-color);
+}
+
+#menu_superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-box {
+  transform: translate(-50%, -50%);
+  background: white;
+  margin-top: 3rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  color: #020873;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2.5rem;
+  width: 0;
+  transition: 0.5s;
+  font-family: "Roboto", sans-serif;
+}
+
+::-webkit-input-placeholder {
+  color: #020873;
+}
+
+.search-buttom {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.search-box:hover > .search-txt {
+  width: 25rem;
+  padding: 0 0.5rem;
+}
+
+.search-box:hover > .search-buttom {
+  background: #192850;
+}
 /* Cabeçalho do site */
 
 /* Titulos */
-h1{
-    text-align: center;
-    font-size: 70px;
-    margin-top: 50px;
-    color: white;
+h1 {
+  text-align: center;
+  font-size: 70px;
+  margin-top: 50px;
+  color: white;
 }
-h2{
-    margin: 70px;
-    font-size: 50px;
-    margin-top: 20px;
-    color: white;
+h2 {
+  margin: 70px;
+  font-size: 50px;
+  margin-top: 20px;
+  color: white;
 }
 /* Titulos */
 
-
 img {
-    max-width: 100%;
-    display: block;
-    margin: px;
-    justify-content: space-between;
+  max-width: 100%;
+  display: block;
+  margin: px;
+  justify-content: space-between;
 }
-
 
 .flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 1px;
 }
 
-.flex > div >img{
-    height: 400px;
-    width: 400px;
-    border-radius: 10px;
+.flex > div > img {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
 }
 
-
-p{
-    padding: 10px;
-    color: white;
-
+p {
+  padding: 10px;
+  color: white;
 }
 
-
-div > a{
-    justify-content: center;
+div > a {
+  justify-content: center;
 }
-div > p{
-    width: 400px;
+div > p {
+  width: 400px;
 }
 
 /*Rodape*/
 
 footer {
-    background-color: #020873;
-    border-radius: 2rem;
-    height: 13rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: none;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    padding-bottom: 130px;
-  }
-  
-  footer nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  footer nav ul {
-    display: flex;
-    align-items: start;
-    list-style: none;
-    padding-left: 8rem;
-    padding-top: 2rem;
-  }
-  
-  footer nav ul li a {
-    font-size: 2.5rem;
-  }
-  
-  footer nav img {
-    width: 3.5rem;
-  }
-  
-  #copy-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0.5rem;
-  }
-  
-  #copy-left img {
-    width: 2.3rem;
-  }
-  
-  footer #contato {
-    color: #020873;
-    font-weight: 800;
-  }
-  
-  footer #logo img {
-    width: 30rem;
-  }
-  
+  background-color: #020873;
+  border-radius: 2rem;
+  height: 14.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer nav ul {
+  display: flex;
+  align-items: start;
+  list-style: none;
+  padding-left: 8rem;
+  padding-top: 2rem;
+}
+
+footer nav ul li a {
+  font-size: 2.5rem;
+}
+
+footer nav img {
+  width: 3.5rem;
+}
+
+#copy-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+#copy-left img {
+  width: 2.3rem;
+}
+
+footer #contato {
+  color: #020873;
+  font-weight: 800;
+}
+
+footer #logo img {
+  width: 30rem;
+}
 
 /*Rodape*/
